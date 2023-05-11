@@ -1,0 +1,92 @@
+,gene,calculated,manual,1,2,3,4,5,6,8,11,24,60,128,435,1346,total_quality
+MALTODEXGLUCOSID-MONOMER,b0403,,2,['P21517_2_603_5z0t_&_NOBFS_0'],['7vt9-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'7vt9-assembly1.cif_&_NOBFS_0': 100.0}
+Unmodelled_MONOMER_b0060,b0060,,1,"['1q8i-assembly1.cif_&_NOBFS_0', 'P21189_1_783_3k58_&_NOBFS_0']",['3k5n-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'3k5n-assembly1.cif_&_NOBFS_0': 95.35, '1q8i-assembly1.cif_&_NOBFS_0': 90.3}"
+EG12666-MONOMER,b0524,,1,"['5wly-assembly1.cif_&_NOBFS_0', 'P43341_1_240_6ph9_&_NOBFS_0']",['5wly-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,"{'5wly-assembly1.cif_&_NOBFS_0': 88.0, '5wly-assembly2.cif_&_NOBFS_0': 88.0}"
+Unmodelled_MONOMER_b0143,b0143,,1,"['3aqk-assembly1.cif_&_MATCH_0', 'P0ABF1_29_442_3aqk_&_NOBFS_0']",['3aqm-assembly1.cif_&_MATCH_0'],,,,,,,,,,,,"{'3aqk-assembly1.cif_&_MATCH_0': 83.7, '3aqm-assembly1.cif_&_MATCH_0': 83.4}"
+EG10168-MONOMER,b0657,,1,"['7aci-assembly1.cif_&_NOBFS_0', 'P23930_6_508_5n6h_&_NOBFS_0']",['6nwr-assembly1.cif_&_NOBFS_0'],['6nwr-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,"{'7aci-assembly1.cif_&_NOBFS_0': 98.6, '6nwr-assembly2.cif_&_NOBFS_0': 97.16666666666669, '6nwr-assembly1.cif_&_NOBFS_0': 96.7}"
+CMR-MONOMER,b0842,,1,"['6gv1-assembly1.cif_&_MATCH_3', 'P0AEY8_9_400_4zp0_&_NOBFS_0']",['6oom-assembly2.cif_&_MATCH_3'],,,,,,,,,,,,"{'6gv1-assembly1.cif_&_MATCH_3': 94.4, '6oom-assembly2.cif_&_MATCH_3': 95.1}"
+Unmodelled_MONOMER_b0799,b0799,,1,"['6fwr-assembly1.cif_&_MATCH_1', 'P27296_14_704_6fwr_&_NOBFS_0']",['6fws-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,"{'6fws-assembly1.cif_&_MATCH_1': 95.5, '6fwr-assembly1.cif_&_MATCH_1': 97.5}"
+Unmodelled_MONOMER_b3973,b3973,,1,"['1bia-assembly1.cif_&_NOBFS_0', 'P06709_3_320_4wf2_&_NOBFS_0']",['2ewn-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'2ewn-assembly1.cif_&_NOBFS_0': 99.1, '1bia-assembly1.cif_&_NOBFS_0': 91.0}"
+RlmM_mono,b2806,,1,"['4atn-assembly1.cif_&_NOBFS_0', 'P0ADR6_1_357_4auk_&_NOBFS_0']",['4b17-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'4atn-assembly1.cif_&_NOBFS_0': 97.3, '4b17-assembly1.cif_&_NOBFS_0': 97.3}"
+DIHYDROFOLATEREDUCT-MONOMER,b0048,,1,"['4pss-assembly1.cif_&_NOBFS_0', 'P0ABQ4_1_159_4x5f_&_NOBFS_0']",['1dds-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1dds-assembly1.cif_&_NOBFS_0': 100.0, '4pss-assembly1.cif_&_NOBFS_0': 99.4}"
+Unmodelled_MONOMER_b4406,b4406,,2,['P0A8K5_1_66_5h1n_&_NOBFS_0'],['5h1n-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'5h1n-assembly1.cif_&_NOBFS_0': 91.4}
+EG10299-MONOMER,b0585,,1,"['2b20-assembly1.cif_&_NOBFS_0', 'P13039_3_397_2b20_&_NOBFS_0']",['3c87-assembly3.cif_&_NOBFS_0'],,,,,,,,,,,,"{'3c87-assembly3.cif_&_NOBFS_0': 93.15, '2b20-assembly1.cif_&_NOBFS_0': 94.2}"
+Unmodelled_MONOMER_b0214,b0214,,1,"['2rn2-assembly1.cif_&_NOBFS_0', 'P0A7Y4_1_155_1rch_&_NOBFS_0']",['7vse-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'2rn2-assembly1.cif_&_NOBFS_0': 100.0, '7vse-assembly1.cif_&_NOBFS_0': 100.0}"
+Unmodelled_MONOMER_b1018,b1018,2,2,,['7wgu-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'7wgu-assembly1.cif_&_NOBFS_0': 93.1}
+H2NEOPTERINP3PYROPHOSPHOHYDRO-MONOMER,b1865,,1,"['5u7f-assembly1.cif_&_NOBFS_0', 'P0AFC0_2_148_2o1c_&_NOBFS_0']",['5u7f-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,"{'5u7f-assembly1.cif_&_NOBFS_0': 96.0, '5u7f-assembly2.cif_&_NOBFS_0': 96.0}"
+NARK-MONOMER,b1223,,1,"['4u4v-assembly1.cif_&_MATCH_1', 'P10903_14_463_4u4t_&_NOBFS_0']",['4jre-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,"{'4jre-assembly1.cif_&_MATCH_1': 87.55, '4u4v-assembly1.cif_&_MATCH_1': 95.5}"
+Unmodelled_MONOMER_b1063,b1063,,1,['P0AB26_20_185_3l6i_&_NOBFS_0'],['3l6i-assembly3.cif_&_NOBFS_0'],,,,,,,,,,,,{'3l6i-assembly3.cif_&_NOBFS_0': 81.2}
+Unmodelled_MONOMER_b2834,b2834,,2,['P0A9T4_1_346_1lqa_&_NOBFS_0'],['1lqa-assembly3.cif_&_MATCH_2'],,,,,,,,,,,,{'1lqa-assembly3.cif_&_MATCH_2': 100.0}
+AMYLOMALT-MONOMER,b3416,,1,"['4s3r-assembly1.cif_&_NOBFS_0', 'P15977_1_677_4s3p_&_NOBFS_0']",['4s3p-assembly3.cif_&_NOBFS_0'],,['4s3p-assembly6.cif_&_NOBFS_0'],,,,,,,,,,"{'4s3p-assembly6.cif_&_NOBFS_0': 99.2, '4s3p-assembly3.cif_&_NOBFS_0': 99.2, '4s3r-assembly1.cif_&_NOBFS_0': 94.8}"
+PEPCARBOXYKIN-MONOMER,b3403,,1,"['2olr-assembly1.cif_&_NOBFS_0', 'P22259_4_540_1os1_&_NOBFS_0']",['6at3-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'6at3-assembly1.cif_&_NOBFS_0': 98.6, '2olr-assembly1.cif_&_NOBFS_0': 99.1}"
+RsmH_mono,b0082,,2,['P60390_8_313_3tka_&_NOBFS_0'],['3tka-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'3tka-assembly1.cif_&_NOBFS_0': 90.4}
+DnaK_mono,b0014,,1,"['2kho-assembly1.cif_&_MATCH_2', 'P0A6Y8_2_601_4b9q_&_NOBFS_0']",['4jne-assembly1.cif_&_MATCH_2'],,,,,,,,,,,,"{'2kho-assembly1.cif_&_MATCH_2': 93.9, '4jne-assembly1.cif_&_MATCH_2': 93.3}"
+Unmodelled_MONOMER_b0714,b0714,,1,"['1k3x-assembly1.cif_&_NOBFS_0', 'P50465_2_263_1q3b_&_NOBFS_0']",,,['1q39-assembly2.cif_&_NOBFS_0'],,,,,,,,,,"{'1k3x-assembly1.cif_&_NOBFS_0': 95.4, '1q39-assembly2.cif_&_NOBFS_0': 97.0}"
+Unmodelled_MONOMER_b3080,b3080,,1,['P42592_24_781_5ca3_&_NOBFS_0'],['3d3i-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'3d3i-assembly1.cif_&_NOBFS_0': 94.9}
+MMUM-MONOMER,b0261,,1,"['5dmm-assembly1.cif_&_MATCH_1', 'Q47690_5_310_5dmm_&_NOBFS_0']",['5dmn-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,"{'5dmn-assembly1.cif_&_MATCH_1': 84.15, '5dmm-assembly1.cif_&_MATCH_1': 92.9}"
+EG10048-MONOMER,b0049,,1,['P05637_2_268_2dfj_&_NOBFS_0'],['2dfj-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,{'2dfj-assembly1.cif_&_MATCH_1': 95.0}
+Unmodelled_MONOMER_b4209,b4209,,1,['P69506_2_220_5fnp_&_NOBFS_0'],['7be8-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'7be8-assembly1.cif_&_NOBFS_0': 97.95}
+Unmodelled_MONOMER_b2717,b2717,,1,"['2i8l-assembly1.cif_&_NOBFS_0', 'P0AEV9_1_156_2i8l_&_NOBFS_0']",['2e85-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'2i8l-assembly1.cif_&_NOBFS_0': 100.0, '2e85-assembly1.cif_&_NOBFS_0': 95.9}"
+Unmodelled_MONOMER_b3673,b3673,2,2,,['2gfp-assembly1.cif_&_MATCH_7'],,,,,,,,,,,,{'2gfp-assembly1.cif_&_MATCH_7': 95.2}
+Unmodelled_MONOMER_b1641,b1641,11,11,,,,,,,,['7ojg-assembly1.cif_&_MATCH_1'],,,,,,{'7ojg-assembly1.cif_&_MATCH_1': 89.0}
+LACY-MONOMER,b0343,,1,['2cfq-assembly1.cif_&_NOBFS_0'],['4oaa-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'4oaa-assembly1.cif_&_NOBFS_0': 93.3, '2cfq-assembly1.cif_&_NOBFS_0': 99.8}"
+EG11829-MONOMER,b3857,,8,"['1e5k-assembly1.cif_&_NOBFS_0', 'P32173_4_191_1e5k_&_NOBFS_0']",,,,,,['1fr9-assembly1.cif_&_NOBFS_0'],,,,,,,"{'1e5k-assembly1.cif_&_NOBFS_0': 96.9, '1fr9-assembly1.cif_&_NOBFS_0': 95.4}"
+Unmodelled_MONOMER_b3813,b3813,,2,"['3lfu-assembly1.cif_&_MATCH_2', 'P03018_2_662_2is6_&_NOBFS_0']",['2is6-assembly1.cif_&_MATCH_2'],,,,,,,,,,,,"{'2is6-assembly1.cif_&_MATCH_2': 90.55, '3lfu-assembly1.cif_&_MATCH_2': 87.9}"
+MALSYNG-MONOMER,b2976,,1,"['1d8c-assembly1.cif_&_NOBFS_0', 'P37330_3_722_1d8c_&_NOBFS_0']",['1p7t-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1d8c-assembly1.cif_&_NOBFS_0': 95.2, '1p7t-assembly2.cif_&_NOBFS_0': 97.35}"
+ArgS_mono,b1876,,1,['4oby-assembly1.cif_&_NOBFS_0'],['5b63-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'5b63-assembly1.cif_&_NOBFS_0': 97.6, '4oby-assembly1.cif_&_NOBFS_0': 93.8}"
+Unmodelled_MONOMER_b0881,b0881,,1,"['2w9r-assembly1.cif_&_NOBFS_0', 'P0A8Q6_2_106_3o2b_&_NOBFS_0']",['1r6o-assembly3.cif_&_NOBFS_0'],,,,,,,,,,,,"{'2w9r-assembly1.cif_&_NOBFS_0': 88.0, '1r6o-assembly3.cif_&_NOBFS_0': 88.7}"
+LolA_MONOMER,b0891,,1,"['1iwl-assembly1.cif_&_NOBFS_0', 'P61316_24_203_6fhm_&_NOBFS_0']",['6fhm-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'6fhm-assembly1.cif_&_NOBFS_0': 89.7, '1iwl-assembly1.cif_&_NOBFS_0': 87.2}"
+EG10626-MONOMER,b0099,,1,"['7ww6-assembly1.cif_&_MATCH_0', 'P08337_1_129_1puq_&_NOBFS_0']",['3a6s-assembly3.cif_&_MATCH_0'],,,,,,,,,,,,"{'7ww6-assembly1.cif_&_MATCH_0': 100.0, '3a6s-assembly3.cif_&_MATCH_0': 95.35}"
+Unmodelled_MONOMER_b1317,b1317,,2,,['4g9b-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,{'4g9b-assembly1.cif_&_MATCH_1': 96.5}
+Unmodelled_MONOMER_b0867,b0867,,1,['3d2y-assembly1.cif_&_MATCH_0'],['3d2y-assembly2.cif_&_MATCH_0'],,,,,,,,,,,,"{'3d2y-assembly2.cif_&_MATCH_0': 93.1, '3d2y-assembly1.cif_&_MATCH_0': 93.1}"
+XYLE-MONOMER,b4031,,1,"['4gc0-assembly1.cif_&_MATCH_6', 'P0AGF4_5_479_4gby_&_NOBFS_0']",['4qiq-assembly2.cif_&_MATCH_6'],,,,,,,,,,,,"{'4gc0-assembly1.cif_&_MATCH_6': 96.7, '4qiq-assembly2.cif_&_MATCH_6': 89.4}"
+G7164-MONOMER,b2251,,1,['P52006_1_141_3n77_&_NOBFS_0'],['3oga-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'3oga-assembly1.cif_&_NOBFS_0': 81.7}
+PRIBFAICARPISOM-MONOMER,b2024,,1,"['5ahe-assembly1.cif_&_NOBFS_0', 'P10371_1_243_5ac7_&_NOBFS_0']",['5g2h-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'5ahe-assembly1.cif_&_NOBFS_0': 89.0, '5g2h-assembly1.cif_&_NOBFS_0': 89.0}"
+G7457-MONOMER,b2813,,1,"['2gae-assembly1.cif_&_NOBFS_0', 'P0A935_24_356_2gae_&_NOBFS_0']",,,['2pi8-assembly1.cif_&_NOBFS_0'],,,,,,,,,,"{'2pi8-assembly1.cif_&_NOBFS_0': 88.30000000000003, '2gae-assembly1.cif_&_NOBFS_0': 91.2}"
+MHPDHYDROL-MONOMER,b0350,,5,['P77608_1_261_1sv6_&_NOBFS_0'],,,,,,,,,['2wqt-assembly1.cif_&_NOBFS_0'],,,,{'2wqt-assembly1.cif_&_NOBFS_0': 96.7}
+XASA-MONOMER,b1492,,1,['P63235_10_509_4dji_&_NOBFS_0'],['4djk-assembly3.cif_&_MATCH_4'],,,,,,,,,,,,{'4djk-assembly3.cif_&_MATCH_4': 88.44999999999997}
+Unmodelled_MONOMER_b2004,b2004,,1,['P76364_4_118_2inw_&_NOBFS_0'],['2h28-assembly3.cif_&_MATCH_1'],,,,,,,,,,,,{'2h28-assembly3.cif_&_MATCH_1': 83.75}
+GreB_mono,b3406,,1,"['6rin-assembly1.cif_&_MATCH_0', 'P30128_1_156_6ri7_&_NOBFS_0']",['6ri7-assembly1.cif_&_MATCH_0'],,,,,,,,,,,,"{'6rin-assembly1.cif_&_MATCH_0': 98.1, '6ri7-assembly1.cif_&_MATCH_0': 98.1}"
+Unmodelled_MONOMER_b1601,b1601,5,5,,,,,['7nb6-assembly1.cif_&_MATCH_2'],,,,,,,,,{'7nb6-assembly1.cif_&_MATCH_2': 98.8}
+Unmodelled_MONOMER_b2159,b2159,,1,"['1qtw-assembly1.cif_&_NOBFS_0', 'P0A6C1_1_285_1qtw_&_NOBFS_0']",,,,,,,,,,['2nqj-assembly2.cif_&_NOBFS_0'],,,"{'1qtw-assembly1.cif_&_NOBFS_0': 100.0, '2nqj-assembly2.cif_&_NOBFS_0': 97.5}"
+ENTC-MONOMER,b0593,,1,['P0AEJ2_14_391_5jzd_&_NOBFS_0'],['5jy4-assembly1.cif_&_MATCH_0'],,,,,,,,,,,,{'5jy4-assembly1.cif_&_MATCH_0': 95.7}
+Unmodelled_MONOMER_b1962,b1962,2,2,,['3gw7-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'3gw7-assembly1.cif_&_NOBFS_0': 87.8}
+Unmodelled_MONOMER_b4211,b4211,,1,"['2zcu-assembly1.cif_&_NOBFS_0', 'P39315_1_283_2zcu_&_NOBFS_0']",['2zcu-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,"{'2zcu-assembly1.cif_&_NOBFS_0': 96.2, '2zcu-assembly2.cif_&_NOBFS_0': 96.2}"
+Unmodelled_MONOMER_b2597,b2597,,1,"['1n3g-assembly1.cif_&_MATCH_1', 'P0AD49_1_113_1n3g_&_NOBFS_0']",,,,,,,,,,,,['6fkr-assembly2.cif_&_MATCH_1'],"{'1n3g-assembly1.cif_&_MATCH_1': 100.0, '6fkr-assembly2.cif_&_MATCH_1': 85.79999999999997}"
+G6657-MONOMER,b1319,,1,"['2f1c-assembly1.cif_&_NOBFS_0', 'P76045_22_301_5mwv_&_NOBFS_0']",['2f1c-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,"{'2f1c-assembly1.cif_&_NOBFS_0': 81.9, '2f1c-assembly2.cif_&_NOBFS_0': 81.9}"
+Unmodelled_MONOMER_b2212,b2212,,1,"['7nro-assembly1.cif_&_NOBFS_0', 'P05050_12_214_3i3q_&_NOBFS_0']",['3khc-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'3khc-assembly1.cif_&_NOBFS_0': 95.4, '7nro-assembly1.cif_&_NOBFS_0': 93.5}"
+DEOXYRIBOSE-P-ALD-MONOMER,b4381,,1,"['5eky-assembly1.cif_&_NOBFS_0', 'P0A6L0_1_251_1jcj_&_NOBFS_0']",['1ktn-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1ktn-assembly1.cif_&_NOBFS_0': 96.3, '5eky-assembly1.cif_&_NOBFS_0': 95.4}"
+Unmodelled_MONOMER_b0231,b0231,,1,['Q47155_2_350_3fds_&_NOBFS_0'],['4r8u-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,{'4r8u-assembly2.cif_&_NOBFS_0': 96.0}
+EG11433-MONOMER,b4219,,1,"['2gt3-assembly1.cif_&_NOBFS_0', 'P0A744_2_212_2gt3_&_NOBFS_0']",,['1ff3-assembly5.cif_&_NOBFS_0'],,,['1ff3-assembly4.cif_&_NOBFS_0'],,,,,,,,"{'1ff3-assembly5.cif_&_NOBFS_0': 99.09999999999998, '1ff3-assembly4.cif_&_NOBFS_0': 99.1, '2gt3-assembly1.cif_&_NOBFS_0': 99.5}"
+UDPNACETYLGLUCOSAMENOLPYRTRANS-MONOMER,b3189,,1,"['5vm7-assembly1.cif_&_NOBFS_0', 'P0A749_1_419_5vm7_&_NOBFS_0']",['1ejd-assembly5.cif_&_NOBFS_0'],['1uae-assembly1.cif_&_NOBFS_0'],['2z2c-assembly1.cif_&_NOBFS_0'],,,,,,,,,,"{'2z2c-assembly1.cif_&_NOBFS_0': 99.5, '1uae-assembly1.cif_&_NOBFS_0': 99.8, '5vm7-assembly1.cif_&_NOBFS_0': 100.0, '1ejd-assembly5.cif_&_NOBFS_0': 93.3}"
+Unmodelled_MONOMER_b3068,b3068,,1,"['1mug-assembly1.cif_&_NOBFS_0', 'P0A9H1_1_165_1mug_&_NOBFS_0']",['1mtl-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1mug-assembly1.cif_&_NOBFS_0': 98.2, '1mtl-assembly1.cif_&_NOBFS_0': 94.35}"
+Unmodelled_MONOMER_b2698,b2698,,1,['P33596_9_161_3c1d_&_NOBFS_0'],['3c1d-assembly3.cif_&_NOBFS_0'],,,,,,,,,,,,{'3c1d-assembly3.cif_&_NOBFS_0': 87.05000000000003}
+Unmodelled_MONOMER_b2798,b2798,,1,"['3zda-assembly1.cif_&_NOBFS_0', 'P38506_2_250_3zd9_&_NOBFS_0']",['3zdb-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'3zdb-assembly1.cif_&_NOBFS_0': 98.0, '3zda-assembly1.cif_&_NOBFS_0': 98.4}"
+IPPISOM-MONOMER,b2889,,1,"['1hzt-assembly1.cif_&_NOBFS_0', 'Q46822_4_181_1i9a_&_NOBFS_0']",['1ppv-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1hzt-assembly1.cif_&_NOBFS_0': 83.1, '1ppv-assembly1.cif_&_NOBFS_0': 97.25}"
+FLAVODOXIN1-MONOMER,b0684,,1,"['2mok-assembly1.cif_&_MATCH_0', 'P61949_1_176_2mok_&_NOBFS_0']",['1ag9-assembly1.cif_&_MATCH_0'],,,,,,,,,,,,"{'1ag9-assembly1.cif_&_MATCH_0': 99.4, '2mok-assembly1.cif_&_MATCH_0': 100.0}"
+Unmodelled_MONOMER_b1048,b1048,,1,['P33136_23_511_1txk_&_NOBFS_0'],['1txk-assembly3.cif_&_MATCH_1'],,,,,,,,,,,,{'1txk-assembly3.cif_&_MATCH_1': 90.7}
+FLAVONADPREDUCT-MONOMER,b3924,,1,"['1fdr-assembly1.cif_&_NOBFS_0', 'P28861_2_247_2xnj_&_NOBFS_0']",['3fpk-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'3fpk-assembly1.cif_&_NOBFS_0': 89.5, '1fdr-assembly1.cif_&_NOBFS_0': 98.0}"
+EG11796-MONOMER,b4386,,1,"['3a7r-assembly1.cif_&_NOBFS_0', 'P32099_2_338_3a7r_&_NOBFS_0']",,,,,['1x2g-assembly4.cif_&_NOBFS_0'],,,,,,,,"{'3a7r-assembly1.cif_&_NOBFS_0': 99.7, '1x2g-assembly4.cif_&_NOBFS_0': 96.4}"
+L-ASPARTATE-OXID-MONOMER,b2574,,1,"['1knr-assembly1.cif_&_NOBFS_0', 'P10902_5_533_1knp_&_NOBFS_0']",['1chu-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1chu-assembly1.cif_&_NOBFS_0': 88.3, '1knr-assembly1.cif_&_NOBFS_0': 97.6}"
+Unmodelled_MONOMER_b2259,b2259,,1,"['2jso-assembly1.cif_&_NOBFS_0', 'P37590_1_88_2jso_&_NOBFS_0']",['4hn7-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'4hn7-assembly1.cif_&_NOBFS_0': 96.6, '2jso-assembly1.cif_&_NOBFS_0': 100.0}"
+Unmodelled_MONOMER_b2011,b2011,,1,"['2qxf-assembly1.cif_&_NOBFS_0', 'P04995_7_475_4jrp_&_NOBFS_0']",['4jrp-assembly3.cif_&_NOBFS_0'],,,,,,,,,,,,"{'2qxf-assembly1.cif_&_NOBFS_0': 90.9, '4jrp-assembly3.cif_&_NOBFS_0': 97.35}"
+Unmodelled_MONOMER_b2068,b2068,,1,"['3ogd-assembly1.cif_&_NOBFS_0', 'P04395_1_281_3d4v_&_NOBFS_0']",['3oh6-assembly2.cif_&_NOBFS_0'],,['3cws-assembly1.cif_&_NOBFS_0'],,,,,,,,,,"{'3ogd-assembly1.cif_&_NOBFS_0': 96.5, '3cws-assembly1.cif_&_NOBFS_0': 99.8, '3oh6-assembly2.cif_&_NOBFS_0': 96.5}"
+TruD_mono,b2745,,1,"['1si7-assembly1.cif_&_NOBFS_0', 'Q57261_1_340_1si7_&_NOBFS_0']",['1sb7-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1sb7-assembly1.cif_&_NOBFS_0': 95.6, '1si7-assembly1.cif_&_NOBFS_0': 97.4}"
+Unmodelled_MONOMER_b2777,b2777,,2,['P64554_1_217_6nhl_&_NOBFS_0'],['6nhl-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'6nhl-assembly1.cif_&_NOBFS_0': 92.1}
+Unmodelled_MONOMER_b1182,b1182,,24,"['1qoy-assembly1.cif_&_NOBFS_0', 'P77335_1_298_1qoy_&_NOBFS_0']",,,,,,,,['2wcd-assembly1.cif_&_NOBFS_0'],,,,,"{'2wcd-assembly1.cif_&_NOBFS_0': 94.09999999999998, '1qoy-assembly1.cif_&_NOBFS_0': 96.1}"
+Unmodelled_MONOMER_b2580,b2580,,1,"['3uf7-assembly1.cif_&_NOBFS_0', 'P12295_5_229_1eug_&_NOBFS_0']",['1lqg-assembly3.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1lqg-assembly3.cif_&_NOBFS_0': 98.7, '3uf7-assembly1.cif_&_NOBFS_0': 97.4}"
+Unmodelled_MONOMER_b1973,b1973,,2,"['1s7d-assembly1.cif_&_NOBFS_0', 'P76344_29_216_1txl_&_NOBFS_0']",['1s7d-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1s7d-assembly1.cif_&_NOBFS_0': 86.6, '1s7d-assembly2.cif_&_NOBFS_0': 86.6}"
+Unmodelled_MONOMER_b0565,b0565,,1,['P09169_21_317_1i78_&_NOBFS_0'],['1i78-assembly3.cif_&_NOBFS_0'],,,,,,,,,,,,{'1i78-assembly3.cif_&_NOBFS_0': 92.7}
+Unmodelled_MONOMER_b4475,b4475,,1,"['3tut-assembly1.cif_&_NOBFS_0', 'P46849_2_338_3kgd_&_NOBFS_0']",['1qmh-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1qmh-assembly1.cif_&_NOBFS_0': 98.5, '3tut-assembly1.cif_&_NOBFS_0': 98.5}"
+Unmodelled_MONOMER_b4269,b4269,,2,['P27250_2_339_6c49_&_NOBFS_0'],['7bu2-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,{'7bu2-assembly1.cif_&_MATCH_1': 98.95}
+Unmodelled_MONOMER_b1343,b1343,,1,['P21693_1_392_4ljy_&_NOBFS_0'],['7pmm-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,{'7pmm-assembly1.cif_&_MATCH_1': 100.0}
+Unmodelled_MONOMER_b0525,b0525,,1,"['2rs4-assembly1.cif_&_MATCH_1', 'P23869_1_164_2rs4_&_NOBFS_0']",['2nul-assembly1.cif_&_MATCH_1'],,,,,,,,,,,,"{'2nul-assembly1.cif_&_MATCH_1': 99.4, '2rs4-assembly1.cif_&_MATCH_1': 100.0}"
+DISULFOXRED-MONOMER,b3860,,1,"['1a2j-assembly1.cif_&_NOBFS_0', 'P0AEG4_20_208_2ndo_&_NOBFS_0']",['4wf5-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'4wf5-assembly1.cif_&_NOBFS_0': 90.4, '1a2j-assembly1.cif_&_NOBFS_0': 90.4}"
+O-SUCCINYLBENZOATE-COA-SYN-MONOMER,b2261,,1,"['1fhu-assembly1.cif_&_NOBFS_0', 'P29208_1_320_1fhv_&_NOBFS_0']",['1r6w-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,"{'1r6w-assembly1.cif_&_NOBFS_0': 98.5, '1fhu-assembly1.cif_&_NOBFS_0': 93.1}"
+Unmodelled_MONOMER_b3910,b3910,,2,['P32157_1_224_1o65_&_NOBFS_0'],['5yhi-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'5yhi-assembly1.cif_&_NOBFS_0': 89.1}
+Unmodelled_MONOMER_b4150,b4150,,1,['P00811_20_377_3fkv_&_NOBFS_0'],['2p9v-assembly2.cif_&_MATCH_0'],,,,,,,,,,['2p9v-assembly1.cif_&_MATCH_0'],,"{'2p9v-assembly1.cif_&_MATCH_0': 94.9974712643678, '2p9v-assembly2.cif_&_MATCH_0': 94.45}"
+Unmodelled_MONOMER_b1256,b1256,,1,"['2mhl-assembly1.cif_&_NOBFS_0', 'P0A915_26_212_2r4l_&_NOBFS_0']",,,,,['2f1v-assembly7.cif_&_NOBFS_0'],,,,,,,,"{'2mhl-assembly1.cif_&_NOBFS_0': 90.1, '2f1v-assembly7.cif_&_NOBFS_0': 85.0}"
+URAA-MONOMER,b2497,,2,"['3qe7-assembly1.cif_&_MATCH_3', 'P0AGM7_4_410_3qe7_&_NOBFS_0']",['3qe7-assembly2.cif_&_MATCH_3'],,,,,,,,,,,,"{'3qe7-assembly1.cif_&_MATCH_3': 94.9, '3qe7-assembly2.cif_&_MATCH_3': 94.9}"
+H2PTERIDINEPYROPHOSPHOKIN-MONOMER,b0142,,1,"['5etp-assembly1.cif_&_NOBFS_0', 'P26281_1_159_5etk_&_NOBFS_0']",['3ip0-assembly2.cif_&_NOBFS_0'],,,,,,,,,,,,"{'3ip0-assembly2.cif_&_NOBFS_0': 99.4, '5etp-assembly1.cif_&_NOBFS_0': 99.4}"
+DIHYDROOROTOX-MONOMER,b0945,,1,['P0A7E1_1_336_1f76_&_NOBFS_0'],['7t5k-assembly1.cif_&_NOBFS_0'],,,,,,,,,,,,{'7t5k-assembly1.cif_&_NOBFS_0': 99.7}
+Unmodelled_MONOMER_b0814,b0814,,1,"['2m06-assembly1.cif_&_NOBFS_0', 'P0A917_25_171_2m06_&_NOBFS_0']",,,,,['1qj9-assembly1.cif_&_NOBFS_0'],,,,,,,,"{'2m06-assembly1.cif_&_NOBFS_0': 86.5, '1qj9-assembly1.cif_&_NOBFS_0': 86.0}"

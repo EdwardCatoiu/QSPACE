@@ -1,0 +1,24 @@
+b3035 #tolc
+b0462 #acrB
+b0463 #acrA
+b0878 #macA
+b0879 #macB
+b2296 #case I pass
+b0107 #case II pass
+b0256 #case II fail
+b3281 #case III pass
+b0651 #case III pass #2 - test figSX with case I-V pass/fail rate
+b1221 #case III fail
+b0403 #case IV pass
+b2698 #case IV fail
+b0179 #case V pass
+b2336 #case V fail
+b2677 #alphafold multimer pass - proV(2) - abc-26-cplx for 
+b2678 #alphafold multimer pass - proW(2) - abc-26-cplx
+b2679 #alphafold multimer pass - proX(1) - abc-26-cplx
+b0880 #alphafold multimer fail - cspD(2)
+b0034 #alphafold multimer fail - caiF(2) 
+b3240 #alphafold multimer by parts - pass manually
+b3241 #alphafold multimer by parts - pass 
+b0808 # used in subset matching, trade off between seven AF monomers at 81% and single-structures 7A46 (16.5%), 3UDC (35.9%)
+b3962 # used to illustrate when only multi-structure matching is available

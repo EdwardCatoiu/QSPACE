@@ -1,0 +1,469 @@
+CPLX ID,cobraME-enzyme,gene_stoich,description
+7-ALPHA-HYDROXYSTEROID-DEH-CPLX,,{'b1619': 4},7-?-hydroxysteroid dehydrogenase
+ABC-21-CPLX,,"{'b0127': 2, 'b0128': 2}","putative transport complex, ABC superfamily = [YadG][YadH]"
+ABC-23-CPLX,,"{'b4106': 2, 'b4583': 2, 'b4105': 1}",cryptic phosphonate/phosphate ABC transporter = [PhnC]2[PhnE]2[PhnD]
+ABC-28-CPLX,ABC-28-CPLX_EG10817-MONOMER,"{'b3749': 1, 'b3750': 2, 'b3751': 1}",ribose ABC transporter = [RbsA][RbsC]2[RbsB]
+ABC-29-CPLX,,"{'b1291': 1, 'b1290': 1, 'b1293': 1, 'b1292': 1}",putrescine ABC exporter = [SapF][SapC][SapB][SapD]
+ABC-41-CPLX,,"{'b2180': 1, 'b2177': 1, 'b2179': 1, 'b2178': 1}",putative oligopeptide ABC transporter = [YejF][YejB][YejE][YejA]
+ABC-45-CPLX,,"{'b3194': 2, 'b3195': 2, 'b3191': 2, 'b3193': 6}",intermembrane phospholipid transport system = [MlaB]2[MlaD]6[MlaE]2[MlaF]2
+ABC-48-CPLX,,"{'b1754': 1, 'b1755': 1, 'b1756': 2}","putative transport complex, ABC superfamily"
+ABC-52-CPLX,,"{'b3271': 2, 'b3270': 1, 'b3268': 1, 'b3269': 1}","putative transport complex, ABC superfamily = [YhdZ][YhdY][YhdX][YhdW]"
+ABC-54-CPLX,,"{'b3462': 2, 'b3463': 2}",divisome protein complex FtsEX = [FtsE]2[FtsX]
+ABC-55-CPLX,,"{'b1318': 1, 'b1310': 1, 'b1311': 1, 'b1312': 1}","putative transport complex, ABC superfamily = [YcjP][YcjO][YcjN][YcjV]"
+ABC-57-CPLX,,"{'b0794': 1, 'b0793': 1, 'b0792': 1}",ABC exporter YbhFSR = [YbhS][YbhR][YbhF]
+ABC-58-CPLX,,"{'b1516': 1, 'b1514': 1, 'b1515': 1, 'b1513': 1}",Autoinducer-2 ABC transporter = [LsrB][LsrD][LsrC][LsrA]2
+ABC-60-CPLX,,"{'b2548': 1, 'b2546': 2, 'b2547': 1}","putative transport complex, ABC superfamily = [YphD][YphF][YphE]"
+ABC-61-CPLX,,"{'b0495': 2, 'b0496': 1}",YbbA is the predicted ATP-binding subunit of a putative ATP-binding cassette (ABC) exporter complex. YbbP is the predicted membrane-spanning subunit of a putative ATP-binding cassette (ABC) exporter complex
+ABC-62-CPLX,,"{'b1118': 1, 'b1116': 1, 'b1117': 2, 'b0891': 1}",lipoprotein release complex = [LolE][LolD]2[LolC][LolA]
+ACETOLACTSYNII-CPLX,,"{'b4488' : 1, 'b3769': 1}",acetohydroxybutanoate synthase / acetolactate synthase
+ACETYL-COA-CARBOXYLTRANSFER-CPLX,,"{'b0185': 2, 'b2316': 2}",acetyl-CoA carboxyltransferase = [AccA]2[AccD]2
+ACPSUB-CPLX,,{'b0617': 6},citrate lyase [acyl carrier protein] component
+ALAS-CPLX,,{'b2697': 2},alanine葉RNA ligase/DNA-binding transcriptional repressor
+ALPHA-SUBUNIT-CPLX,,"{'b1475': 1, 'b1474': 1, 'b1476': 1}",formate dehydrogenase N = [(FdnI)(FdnH)(FdnG)]3
+ANTHRANSYN-CPLX,,"{'b1264': 2, 'b1263': 2}",anthranilate synthase = [TrpE]2[TrpD]2
+APORNAP-CPLX,hRNAP,"{'b3295': 2, 'b3988': 1, 'b3987': 1}","RNA polymerase, core enzyme = [RpoA]2[RpoC][RpoB]"
+APP-UBIOX-CPLX,,"{'b4592': 1, 'b0979': 1, 'b0978': 1}",cytochromebd-II ubiquinol:oxygen oxidoreductase = [AppC][AppB][AppX]
+ARCB-CPLX,,{'b3210': 2},sensor histidine kinase ArcB
+ASNS-CPLX,Asn_RS_dim,{'b0930': 2},asparagine葉RNA ligase
+ASPCARBREG-DIMER,,{'b4244': 2},"aspartate carbamoyltransferase, regulatory subunit"
+ASPS-CPLX,Asp_RS_dim,{'b1866': 2},aspartate葉RNA ligase
+ATOA-CPLX,,{'b2222': 2},? complex
+ATOD-CPLX,,{'b2221': 2},? complex
+ATPD-CPLX,,{'b3732': 3},ATP synthase F1complex subunit ?
+ATPE-CPLX,,{'b3737': 10},ATP synthase Focomplex - subunit c
+ATPF-CPLX,,{'b3736': 2},ATP synthase Focomplex - subunit b
+B1-CPLX,,{'b2234': 2},"ribonucleoside-diphosphate reductase 1, ? subunit dimer"
+B2-CPLX,,{'b2235': 2},"ribonucleoside-diphosphate reductase 1, ? subunit dimer"
+BCCP-CPLX,,{'b3255': 2},biotin carboxyl carrier protein (dimer)
+BcsE2R2Q2,,"{u'b3536': 2, u'b3535': 2,u'b3534': 2}",BcsE2R2Q2 cytosolic vestibule of Bcs
+BIOTIN-CARBOXYL-CPLX,,{'b3256': 2},biotin carboxylase
+CHEA-CPLX,,{'b1888': 2},chemotaxis protein CheA(L)
+CHEYZ-CPLX,,"{u'b1882': 1,u'b1881': 1}",chemotaxis protein 
+CHEZ-CPLX,,{'b1881': 2},chemotaxis protein CheZ
+CITRYLY-CPLX,,{'b0616': 6},"citrate lyase, citryl-acyl carrrier protein lyase component"
+CITTRANS-CPLX,,{'b0615': 6},"citrate lyase, citrate-acyl carrier protein transferase component"
+CPLX0-0,,{'b4362': 3},primosomal protein DnaT
+CPLX0-1101,,{'b0406': 3},tRNA-guanine transglycosylase
+CPLX0-1121,RlmB_dim,{'b4180': 2},23S rRNA 2'-O-ribose G2251 methyltransferase
+CPLX0-1141,SelA_deca,{'b3591': 10},selenocysteine synthase
+CPLX0-1161,,{'b3931': 6},HslU hexamer
+CPLX0-1162,,{'b3932': 6},HslV hexamer
+CPLX0-1163,,"{'b3932': 12, 'b3931': 12}",HslVU protease = [(HslU)6]2[(HslV)6]2
+CPLX0-1241,,"{ ""b2782"":2 }",MazF-toxin
+CPLX0-1242,,"{""b2782"": 4 , ""b2783"":2 }",MazE-MazF antitoxin/toxin complex / DNA-binding transcriptional repressor
+CPLX0-1261,,{'b2465': 1},transketolase 2
+CPLX0-1321,,"{'b4175': 1, 'b4174': 1}",HflK-HflC complex; regulator of FtsH protease = [HflK][HflC]
+CPLX0-1421,,{'b3336': 24},bacterioferritin
+CPLX0-1441,,{'b2209': 2},serine protease inhibitor ecotin
+CPLX0-1461,,{'b4172': 6},RNA-binding protein Hfq
+CPLX0-1521,,{'b0812': 12},stationary phase nucleoid component that sequesters iron and protects DNA from damage
+CPLX0-1621,RNase_G_dim,{'b3247': 2},RNase G
+CPLX0-1642,,{'b3929': 3},ribonuclease E inhibitor protein A
+CPLX0-1668,,"{'b2342': 1, 'b2341': 1}",anaerobic fatty acid ?-oxidation complex
+CPLX0-1821,Orn_dim,{'b4162': 2},oligoribonuclease
+CPLX0-1841,,"{'b2881': 1, 'b2880': 1}",predicted xanthine dehydrogenase = [XdhD][YgfM]
+CPLX0-1863,,{'b0710': 6},radiation resistance protein YbgI
+CPLX0-1881,,{'b4243': 3},"enamine/imine deaminase, redox-regulated chaperone"
+CPLX0-1923,,"{'b1252': 1, 'b3006': 5, 'b3005': 2}",energy transducing Ton complex = [TonB][ExbB][ExbD]
+CPLX0-2021,,"{""b4000"": 1, ""b0440"":1}",DNA-binding transcriptional dual regulator HU
+CPLX0-2121,,"{'b2686': 1, 'b3035': 3, 'b2685': 1}",multidrug efflux pump EmrAB-TolC = [(TolC)3][EmrA][EmrB]
+CPLX0-2161,,"{'b3035': 3, 'b2367': 3, 'b2368': 6}",tripartite efflux pump EmrKY-TolC = [(TolC)3][EmrK][EmrY]
+CPLX0-2201,,"{'b0739': 1, 'b0738': 3, 'b0740': 1, 'b0741': 1, 'b0737': 6}",The Tol-Pal Cell Envelope Complex
+CPLX0-221,,"{'b4293': 1, 'b3295': 2, 'b3988': 1, 'b3987': 1}",RNA polymerase sigma 19 = [(RpoA)2(RpoC)(RpoB)][FecI]
+CPLX0-222,,"{'b3295': 2, 'b3988': 1, 'b3987': 1, 'b1922': 1}",RNA polymerase sigma 28 = [FliA][(RpoA)2(RpoC)(RpoB)]
+CPLX0-229,,{'b4237': 2},anaerobic ribonucleoside-triphosphate reductase activating protein
+CPLX0-230,,{'b4016': 2},isocitrate dehydrogenase kinase / isocitrate dehydrogenase phosphatase
+CPLX0-2361,,"{""b1842"": 1 , ""b0184"":1 , ""b0215"":1}","DNA polymerase III, core enzyme"
+CPLX0-2381,,"{'b3164': 3, 'b1084': 4, 'b2501': 2, 'b2779': 2, 'b3780': 2}",degradosome = [(Ppk)2][(Rne)4][(RhlB)2][(Pnp)3][(Eno)2]
+CPLX0-2401,,{'b1261': 2},"tryptophan synthase, ? subunit dimer"
+CPLX0-2423,,{'b3019': 2},dimer of DNA topoisomerase IV subunit A
+CPLX0-2424,,"{'b3019': 2, 'b3030': 2}",DNA topoisomerase IV = [ParE]2[(ParC)2]
+CPLX0-2425,,"{'b3699': 2, 'b2231': 2}",DNA gyrase = [GyrA]2[GyrB]2
+CPLX0-244,,{'b0851': 2},NADPH-dependent nitroreductase / NADPH-dependent quinone reductase
+CPLX0-2441,Rho_hexa,{'b3783': 6},transcription termination factor Rho
+CPLX0-245,,"{'b0605': 10, 'b0606': 2}",alkyl hydroperoxide reductase
+CPLX0-246,,{'b1680': 2},L-cysteine desulfurase
+CPLX0-248,IscS,{'b2530': 2},cysteine desulfurase IscS
+CPLX0-250,,"{'b2485': 1, 'b2484': 1, 'b2487': 1, 'b2486': 1, 'b2481': 1, 'b2483': 1, 'b2482': 1, 'b2489': 1, 'b2488': 1}",hydrogenase 4 = [HyfG][HyfI][HyfA][HyfB][HyfC][HyfD][HyfE][HyfF][HyfH]
+CPLX0-2502,,"{'b0784': 2, 'b0785': 2}",molybdopterin synthase = [MoaD]2[MoaE]2
+CPLX0-2521,,{'b0782' : 6},protein MoaB
+CPLX0-2541,,{'b0761': 2},DNA-binding transcriptional dual regulator ModE
+CPLX0-255,,{'b2873': 4},phenylhydantoinase
+CPLX0-2561_apo,,"{u'b0924': 4, u'b0956': 4, u'b1094': 4, u'b0922': 4, u'b0923': 4}",bacterial condensin MukBEF = [(MukB)2][(MukE)2([MukF]2)]
+CPLX0-2621,,{'b4412': 2},protein HokC
+CPLX0-263,,{'b0828': 2},isoaspartyl dipeptidase / asparaginase 3 = [IaaA]2[IaaA]2
+CPLX0-2641,,"{""b0473"": 2}",chaperone protein HtpG
+CPLX0-2661,,"{'b4345': 2, 'b4346': 12}",McrBC restriction endonuclease = [McrB]12[McrC]2
+CPLX0-2681,,{'b3228': 2},ClpXP protease specificity-enhancing factor
+CPLX0-2861,,{'b3723': 2},transcriptional antiterminator BglG
+CPLX0-2881,,{'b0439': 6},Lon protease
+CPLX0-2901,,"{""b0131"":8}",aspartate 1-decarboxylase
+CPLX0-2921,,{'b0161': 12},periplasmic serine endoprotease DegP
+CPLX0-2941,,{'b1766': 4},"protease IV, a signal peptide peptidase"
+CPLX0-2982,,"{'b3178': 6, 'b4175': 6, 'b4174': 6}",FtsH/HflKC protease complex = [(HflK)(HflC)]6[FtsH]6
+CPLX0-3,,{'b4201': 2},primosomal replication protein N
+CPLX0-3021,,{'b4328': 8},isoaspartyl dipeptidase
+CPLX0-3041,,{'b1127': 2},peptidase T
+CPLX0-3081,,{'b2908': 4},Xaa-Pro aminopeptidase
+CPLX0-3101,,{'b0437': 14},ClpP serine protease
+CPLX0-3102,,{'b0438': 6},clpX hexamer
+CPLX0-3104,,"{'b0437': 14, 'b0882': 6}",ClpAP = [(ClpP)14][(ClpA)6]2
+CPLX0-3107,,"{'b0437': 14, 'b0438': 12}",ClpXP = [(ClpP)14][(ClpX)6]2
+CPLX0-3108,,"{'b0437': 14, 'b0882': 6, 'b0438': 6}",ATP-dependent endopeptidase Clp; ATP-dependent protease Clp
+CPLX0-3121,,{'b3713': 4},quinone reductase
+CPLX0-3221,,{'b3149': 4},DnaA initiator-associating protein DiaA
+CPLX0-3241,,"{'b2205': 1, 'b2204': 1}",ubiquinol夕NapC cytochromec] reductase NapGH = [NapG][NapH]
+CPLX0-3281,RNase_III_dim,{'b2567': 2},CPLX0-3281
+CPLX0-3301,,{'b0880': 2},DNA replication inhibitor CspD
+CPLX0-3361,,"{'b2283': 1, 'b2281': 1, 'b2287': 1, 'b2286': 1, 'b2285': 1, 'b2284': 1}","NADH:quinone oxidoreductase I, peripheral arm = [NuoB][NuoC][NuoE][NuoF][NuoG][NuoI]"
+CPLX0-3382,,"{'b3330': 1, 'b3331': 1, 'b3332': 1, 'b3333': 6, 'b3327': 1, 'b3326': 6, 'b3325': 15, 'b3324': 15, 'b3334': 6, 'b3335': 1, 'b3329': 1, 'b3328': 1}", Type II secretion system - GspC-O secreton complex
+CPLX0-3401,,"{'b4314':100, 'b4318': 1, 'b4319':1, 'b4320' : 1}",fimbrial complex
+CPLX0-3461,RNase_E_tetra,{'b1084': 4},ribonuclease E
+CPLX0-3501,QueF_dim,{'b2794': 2},7-cyano-7-deazaguanine reductase
+CPLX0-3521,Pnp_trim,{'b3164': 3},polynucleotide phosphorylase
+CPLX0-3541,RhlB_dim,{'b3780': 2},ATP-dependent RNA helicase RhlB
+CPLX0-3561,,{'b2727': 2},hydrogenase isozymes nickel incorporation protein HypB
+CPLX0-3581,,{'b3887': 2},D-aminoacyl-tRNA deacylase
+CPLX0-3601,RNase_BN_dim,{'b2268': 2},ribonuclease BN
+CPLX0-3602,RNase_T_dim,{'b1652': 2},ribonuclease T
+CPLX0-3621,,{'b4052': 6},replicative DNA helicase
+CPLX0-3761,,"{""b3701"": 2 }",beta sliding clamp of DNA poly III
+CPLX0-3781,,"{'b4539': 1, 'b2017': 2}",YefM-YoeB antitoxin/toxin complex / DNA-binding transcriptional repressor = [YoeB][YefM]2
+CPLX0-3801,,"{""b0470"": 3 , ""b0640"":1 , ""b1099"":1}","DNA polymerase III, preinitiation complex"
+CPLX0-3802,,"{""b0470"": 2 }","DNA polymerase III, ? subunit dimer"
+CPLX0-3803,,"{""b1842"": 3 , ""b0184"":3 , ""b0215"":3,""b0470"": 8 , ""b0640"":2 , ""b1099"":2,""b3701"": 4,""b4259"": 4, ""b4372"":4}","DNA polymerase III, holoenzyme"
+CPLX0-3821,,"{'b2726': 1, 'b2727': 1}",HypA-HypB heterodimer = [HypA][HypB]
+CPLX0-3901,,{'b3656': 6},?-D-xyloside xylohydrolase
+CPLX0-3921,,{'b0966': 3},heat shock protein HspQ
+CPLX0-3922,,"{'b4052': 6, 'b4362': 3, 'b4201': 2, 'b3935': 1, 'b0467': 1, 'b3066': 1}",primosome
+CPLX0-3923,,{'b1667': 2},putative monooxygenase YdhR
+CPLX0-3924,,{'b4207': 2},peptidyl-prolylcis-transisomerase FklB
+CPLX0-3925,,"{'b1183': 2, 'b1184': 1}",DNA polymerase V = [UmuC][UmuD]2
+CPLX0-3927,,{'b3746': 6},regulatory ATPase RavA
+CPLX0-3930,,"{'b1892': 4, 'b1891': 2}",FlhDC DNA-binding transcriptional dual regulator = [FlhD]4[FlhC]2
+CPLX0-3931,,{'b3778': 2},ATP-dependent DNA helicase Rep
+CPLX0-3933,Bam-CPLX,"{'b0177': 1, 'b2512': 1, 'b2477': 1, 'b2595': 1, 'b2617': 1}",Outer Membrane Protein Assembly Complex = [BamE][BamC][BamD][BamA][BamB]
+CPLX0-3934,,"{'b4142': 14, 'b4143': 14}",GroEL-GroES chaperonin complex = [GroL]14[GroS]14
+CPLX0-3937,,"{'b3076' : 4, 'b3077' : 4}",evolved ?-D-galactosidase
+CPLX0-3938,,"{""b4137"": 3}",CutA is a copper-binding protein that is also required for copper tolerance.
+CPLX0-3939,,{'b0607': 2},universal stress protein G
+CPLX0-3941,,{'b1396': 4},phenylacetyl-CoA thioesterase
+CPLX0-3949,,"{'b3990': 6, 'b3991': 6}",thiazole synthase = [ThiG]6[ThiH]6
+CPLX0-3950,TrmD_dim,{'b2607': 2},tRNA m1G37 methyltransferase
+CPLX0-3955,rpL7/12,{'b3986': 2},50S ribosomal subunit protein L7/L12 dimer
+CPLX0-3956,,"{'b3986': 4, 'b3985': 1}",50S ribosomal protein complex L8 = [RplJ][(RplL)2]2
+CPLX0-3957,,"{'b0398': 2, 'b0397': 2}",ATP-dependent structure-specific DNA nuclease = [SbcC]2[SbcD]2
+CPLX0-3958,,"{'b4350': 2, 'b4348': 1, 'b4349': 2}",EcoKI restriction-modification system = [HsdM]2[HsdR]2[HsdS]
+CPLX0-3959,,"{'b3811': 1, 'b2894': 1}",Xer site-specific recombination system = [XerC][XerD]
+CPLX0-3961,,{'b1970': 4},hydroxyisourate hydrolase / transthyretin-related protein
+CPLX0-3969,,{'b1905': 24},ferritin iron-storage complex
+CPLX0-4,,"{'b3240': 3, 'b3241': 6}",aromatic carboxylic acid efflux pump = [AaeA][AaeB]
+CPLX0-661,,{'b0897': 8},putative hydrolase YcaC
+CPLX0-7417,,{'b0360': 2},IS2 insertion element repressor InsA
+CPLX0-7418,,{'b2684': 2},DNA-binding transcriptional repressor MprA
+CPLX0-7420,TrmJ_dim,{'b2532': 2},tRNA Cm32/Um32 methyltransferase
+CPLX0-7421,,{'b3606': 2},tRNA (cytidine/uridine-2'-O)-ribose methyltransferase
+CPLX0-7422,,{'b4403': 2},putative tRNA/rRNA methyltransferase YjtD
+CPLX0-7423,RlmH_dim,{'b0636': 2},23S rRNA m3?1915 methyltransferase
+CPLX0-7425,,"{'b1507': 1, 'b1508': 2}",HipAB toxin/antitoxin complex / DNA-binding transcriptional repressor = [(HipB)2][HipA]
+CPLX0-7444,,{'b1258': 2},DUF892 domain-containing protein YciF
+CPLX0-7450,,"{""b1939"": 26 , ""b1945"":34 , ""b1946"":1}",flagellar motor switch complex
+CPLX0-7451,,"{'b1947': 1, 'b1941': 6, 'b1940': 12, 'b1950': 1, 'b1942': 1, 'b1880': 1, 'b1879': 1, 'b1949': 1, 'b1948': 1}",flagellar export apparatus
+CPLX0-7452,,"{""b1939"": 26 , ""b1945"":34 , ""b1946"":1 , ""b1938"":1 , ""b1080"":1 , ""b1078"":1 , ""b1077"":1 , ""b1074"": 1, ""b1073"":1 ,""b1889"":1 , ""b1890"": 1, ""b1079"": 1,""b1924"" :5 ,""b1923"" :1 ,""b1083"" :1 ,""b1082"" :1 ,""b1076"" :132}",flagellum
+CPLX0-7529,,"{'b2062': 8, 'b2060': 8}",polysaccharide export complex = [Wza]8[Wzc]4
+CPLX0-7536,,{'b3349': 2},FKBP-type peptidyl-prolylcis-transisomerase SlyD
+CPLX0-7538,,{'b2910': 4},cell division protein ZapA
+CPLX0-7561,,"{'b4225': 1, 'b4224': 1}",ChpB-ChpS complex
+CPLX0-7597,MnmG_dim,{'b3741': 2},5-carboxymethylaminomethyluridine-tRNA synthase subunit MnmG
+CPLX0-7608,MnmE_dim,{'b3706': 2},5-carboxymethylaminomethyluridine-tRNA synthase GTPase subunit
+CPLX0-7609,MnmEG_cplx,"{'b3741': 2, 'b3706': 2}",5-carboxymethylaminomethyluridine-tRNA synthase [multifunctional] = [(MnmE)2][(MnmG)2]
+CPLX0-7610,,"{'b3134': 1, 'b3133': 1}",N-acetyl-D-galactosamine specific PTS (cryptic) = [AgaV][AgaW]
+CPLX0-7613,,{'b2456': 6},putative ethanolamine catabolic microcompartment shell protein EutN
+CPLX0-7623,,{'b1166': 2},putative two-component system connector protein AriR
+CPLX0-7624,,"{'b3129': 2, 'b3130': 4}",YhaV-PrlF toxin-antitoxin complex = [PrlF]2[YhaV]4
+CPLX0-7626,,{'b2924': 7},small conductance mechanosensitive channel MscS
+CPLX0-7627,,{'b3291': 5},large conductance mechanosensitive channel
+CPLX0-7628,,"{'b0054': 1, 'b0641': 1}",lipopolysaccharide transport system - outer membrane assembly complex = [LptD][LptE]
+CPLX0-7632,,{'b1004': 4},NAD(P)H:quinone oxidoreductase
+CPLX0-7639,,{'b0683': 2},Fur-Fe2+DNA-binding transcriptional dual regulator
+CPLX0-7645,,{'b2804': 10},L-fucose mutarotase
+CPLX0-7646,,{'b3748': 10},D-ribose pyranase
+CPLX0-7648,,{'b2571': 2},anti-sigma factor stabilizing protein RseB
+CPLX0-7649,,{'b3901': 2},L-rhamnose mutarotase
+CPLX0-7658,,"{""b4310"" : 2}",acetylneuraminate mutarotase
+CPLX0-7662,,{'b1617': 4},?-D-glucuronidase
+CPLX0-7666,,{'b0034': 2},DNA-binding transcriptional activator CaiF
+CPLX0-7667,,{'b3011': 2},NADPH-dependent aldehyde reductase YqhD
+CPLX0-7668,,{'b1765': 2},putative oxidoreductase YdjA
+CPLX0-7669,,{'b2916': 2},DNA-binding transcriptional dual regulator ArgP
+CPLX0-7672,,{'b0817': 2},DNA-binding transcriptional dual regulator MntR
+CPLX0-7675,,{'b1802' : 3},2Fe-2S cluster-containing protein YeaW
+CPLX0-7678,,{'b3292': 2},Protein: ZntR-Zn2+DNA-binding transcriptional activator
+CPLX0-7679,,{'b4046': 2},DNA-binding transcriptional repressor Zur
+CPLX0-7682,,"{""b3414"" : 2}",NfuA is an iron-sulfur cluster carrier protein.
+CPLX0-7683,,{'b3880': 6},sulfoquinovose isomerase
+CPLX0-7686,,{'b3928': 2},cell division factor ZapB
+CPLX0-7691,,{'b4187': 4},isovaleryl-CoA dehydrogenase and DNA-binding transcriptional repressor
+CPLX0-7693,,{'b1412': 2},FMN dependent NADH:quinone oxidoreductase
+CPLX0-7697,,"{'b0922': 2,'b0923': 4}",MukEF dimer
+CPLX0-7698,,{'b0922': 2},MukF dimer
+CPLX0-7705,,{'b3261': 2},DNA-binding transcriptional dual regulator Fis
+CPLX0-7707,,{'b3481': 4},DNA-binding transcriptional repressor NikR-Ni2+
+CPLX0-7708,,{'b0487': 2},DNA-binding transcriptional dual regulator CueR-Cu+
+CPLX0-7710,,{'b1530': 2},DNA-binding transcriptional repressor MarR
+CPLX0-7711,,{'b0178': 3},periplasmic chaperone Skp
+CPLX0-7713,,{'b2364': 2},DNA-binding transcriptional dual regulator DsdC
+CPLX0-7718,,{'b2255': 6},UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronate dehydrogenase
+CPLX0-7721,,{'b4124' : 2},DNA-binding transcriptional activator DcuR-phosphorylated
+CPLX0-7722,,{'b2247': 8},L-rhamnonate dehydratase
+CPLX0-7723,,{'b2245': 6},2-keto-3-deoxy-L-rhamnonate aldolase
+CPLX0-7724,,"{""b3891"" : 2}",formate dehydrogenase formation protein
+CPLX0-7725,,"{'b2760': 1, 'b2759': 2, 'b2756': 1, 'b2757': 1, 'b2758': 6}",CRISPR-associated complex for antiviral defense = [CasA][CasB]2[CasC]6[CasD][CasE]
+CPLX0-7726,RlmI_dim,{'b0967': 2},23S rRNA m5C1962 methyltransferase
+CPLX0-7727,YggJ_dim,{'b2946': 2},16S rRNA m3U1498 methyltransferase
+CPLX0-7728,TruA_dim,{'b2318': 2},tRNA pseudouridine38-40synthase
+CPLX0-7731,,{'b1399': 2},DNA-binding transcriptional repressor PaaX
+CPLX0-7733,,{'b3743': 2},DNA-binding transcriptional dual regulator AsnC
+CPLX0-7734,,{'b3501': 2},DNA-binding transcriptional repressor ArsR
+CPLX0-7740,,{'b3934': 2},DNA-binding transcriptional repressor CytR
+CPLX0-7745,,{'b2427': 4},DNA-binding transcriptional dual regulator MurR
+CPLX0-7747,,{'b1324': 2},lipid hydroperoxide peroxidase
+CPLX0-7748,,{'b3912': 2},DNA-binding transcriptional dual regulator CpxR-phosphorylated
+CPLX0-7754,,"{""b3669"":2}",DNA-binding transcriptional activator UhpA-phosphorylated
+CPLX0-7755,,{'b1103': 2},purine nucleoside phosphoramidase
+CPLX0-7756,,{'b4178': 2},DNA-binding transcriptional dual regulator NsrR
+CPLX0-7757,,{'b1508': 2},HipB antitoxin / DNA-binding transcriptional repressor
+CPLX0-7758,,{'b1045': 2},"2'-O-acetyl-ADP-ribose deacetylase, regulator of RNase III activity"
+CPLX0-7759,,{'b3828': 2},DNA-binding transcriptional dual regulator MetR
+CPLX0-7766,,{'b0597': 4},proofreading thioesterase in enterobactin biosynthesis
+CPLX0-7787,,"{'b0226': 2, 'b0225': 2}",DinJ-YafQ antitoxin/toxin complex / DNA-binding transcriptional repressor = [YafQ]2[DinJ]2
+CPLX0-7789,,{'b0956': 4},macrodomain Ter protein
+CPLX0-7791,,"{'b1564': 4, 'b1563': 4}",RelB-RelE antitoxin/toxin complex / DNA-binding transcriptional repressor = [RelB]4[RelE]4
+CPLX0-7795,,{'b0694': 2},DNA-binding transcriptional activator KdpE-phosphorylated
+CPLX0-7796,,{'b3938': 2},DNA-binding transcriptional repressor MetJ-S-adenosyl-L-methionine
+CPLX0-7797,,"{""b1334"": 2}",DNA-binding transcriptional dual regulator FNR
+CPLX0-7801,,{'b2439': 3},"predicted structural protein, ethanolamine utilization microcompartment"
+CPLX0-7802,,{'b1535': 2},diguanylate cyclase DgcZ
+CPLX0-7805,,"{'b0285': 1, 'b0284': 1, 'b0286': 1}",aldehyde dehydrogenase = [PaoA][PaoB][PaoC]
+CPLX0-7806,,{'b2302': 2},disulfide bond oxidoreductase YfcG
+CPLX0-7807,,"{'b4082': 6, 'b4081': 3, 'b4080': 3}",putative multidrug efflux pump MdtNOP = [MdtP][MdtO][MdtN]
+CPLX0-7810,,{'b1019': 2},heme-containing peroxidase/deferrochelatase
+CPLX0-7816,,"{""b0471"": 2}",putative nucleoid-associated protein YbaB
+CPLX0-7820,,{'b1517': 10},"3-hydroxy-2,4-pentadione 5-phosphate thiolase"
+CPLX0-7822,,"{'b3021': 2, 'b3022': 2}",MqsA-MqsR antitoxin/toxin complex = [MqsA]2[MqsR]2
+CPLX0-7827,,{'b0581': 2},putative glutamate幼ysteine ligase 2
+CPLX0-7835,,{'b2457': 6},putative ethanolamine catabolic microcompartment shell protein EutM
+CPLX0-7836,,{'b2462' : 6},putative ethanolamine catabolic microcompartment shell protein EutS
+CPLX0-7837,,{'b1703': 4},phosphoenolpyruvate synthetase regulatory protein
+CPLX0-7839,,{'b2811': 2},sulfur acceptor protein CsdE
+CPLX0-7841,,{'b2764': 8},"sulfite reductase, flavoprotein subunit complex"
+CPLX0-7844,,"{""b1337"": 2, ""b1338"":2}",p-aminobenzoyl-glutamate hydrolase
+CPLX0-7852,,"{'b3512': 1, 'b2217': 1}",GadE-RcsB DNA-binding transcriptional activator = [RcsB][GadE]
+CPLX0-7853,,{'b3866': 2},Der GTPase-activating protein YihI
+CPLX0-7854,,{'b4241': 2},DNA-binding transcriptional repressor TreR
+CPLX0-7870,,{'b2219': 2},sensor histidine kinase AtoS
+CPLX0-7879,,"{'b3321':1, 'b0416':1}",NusB-NusE complex
+CPLX0-7885,,{'b3447': 2},glutathione hydrolase = [Ggt][Ggt]
+CPLX0-7889,,{'b4155': 2},EF-P-lysine lysyltransferase
+CPLX0-7908,IscA_tetra,{'b2528': 4},iron-sulfur cluster insertion protein IscA
+CPLX0-7909,,"{'b2630': 1, 'b2631': 1}",RnlA-RnlB toxin-antitoxin complex = [RnlB][RnlA]
+CPLX0-7910,,"{""b4259"": 1 , ""b4372"":1 }","DNA polymerase III, ?-? dimer"
+CPLX0-7913,,{'b1430': 2},tellurite methyltransferase
+CPLX0-7914,,{'b2755': 2},multifunctional nuclease Cas1
+CPLX0-7916,,"{'b4366': 1, 'b2217': 1}",RcsB-BglJ DNA-binding transcriptional activator = [BglJ][RcsB]
+CPLX0-7917,,{'b2989': 2},disulfide reductase / organic hydroperoxide reductase
+CPLX0-7921,,{'b1817': 2},mannose-specific PTS enzyme IIAB component
+CPLX0-7922,,{'b3641': 2},nucleoid occlusion factor SlmA
+CPLX0-7923,,{'b1743': 2},ATP-independent periplasmic chaperone
+CPLX0-7927,,{'b1449': 2},NADPH-dependent curcumin/dihydrocurcumin reductase
+CPLX0-7928,,{'b1564': 4},Qin prophage; antitoxin/DNA-binding transcriptional repressor RelB
+CPLX0-7929,,{'b2017': 2},antitoxin/DNA-binding transcriptional repressor YefM
+CPLX0-7932,CYTDEAM-MONOMER,{'b0337': 6},cytosine/isoguanine deaminase
+CPLX0-7933,,{'b2870': 3},putative carbamoyltransferase YgeW
+CPLX0-7934,,"{'b2748': 1, 'b0093': 1, 'b0083': 1}",FtsLBQ cell division complex = [FtsQ][FtsB][FtsL]
+CPLX0-7935,,"{u'b4100': 2, u'b4101': 2, u'b4098': 2, u'b4099': 2, u'b4097': 1}",carbon-phosphorus lyase core complex = [PhnJ]2[PhnI]2[PhnH]2[PhnG]2
+CPLX0-7936,,{'b4092': 2},"5-phospho-?-D-ribosyl 1,2-cyclic phosphate phosphodiesterase"
+CPLX0-7938,,{'b2416': 2},PTS enzyme I
+CPLX0-7939,,{'b0046': 2},regulator of KefC-mediated potassium transport and quinone oxidoreductase
+CPLX0-7940,,{'b0268': 4},putative 2-dehydro-3-deoxygluconate aldolase
+CPLX0-7942,,"{'b0435': 1, 'b1654': 1}",Grx4-BolA complex = [BolA][GrxD]
+CPLX0-7944,MONOMER0-341,{'b3821': 2},outer membrane phospholipase A 
+CPLX0-7945,,{'b1034': 3},zinc-binding phosphatase YcdX
+CPLX0-7946,,{'b0852': 4},ribosomal protein S6 modification protein
+CPLX0-7947,SUCCARGDIHYDRO-MONOMER,{'b1745': 2},N-succinylarginine dihydrolase
+CPLX0-7950,MHPCHYDROL-MONOMER,{'b0349': 2},2-hydroxy-6-oxononatrienedioate hydrolase
+CPLX0-7951,MHPDHYDROL-MONOMER,{'b0350': 5},2-hydroxypentadienoate hydratase
+CPLX0-7952,,"{'b1102': 1, 'b3006': 5, 'b3005': 2, 'b1252': 1}",ferric coprogen outer membrane transport complex = [FhuE][(TonB)(ExbB)(ExbD)]
+CPLX0-7955,,{'b4067': 1},acetate/glycolate:cation symporter
+CPLX0-7956,,{'b2696': 2},carbon storage regulator
+CPLX0-7957,EG10943-MONOMER,{'b1764': 2},"selenide, water dikinase"
+CPLX0-7958,,"{'b4096': 1, 'b4101': 1, 'b4100': 1, 'b4099': 1}",methylphosphonate degradation complex = [PhnL][PhnH][PhnG][PhnI]
+CPLX0-7959,ASL-MONOMER,"{""b1131"" : 4}",Adenylosuccinate lyase
+CPLX0-7960,,{'b0424': 2},protein/nucleic acid deglycase 3
+CPLX0-7961,YADQ-MONOMER,{'b0155': 2},chloride:H+antiporter ClcA
+CPLX0-7962,,{'b1448': 2},L-amino acid N-acyltransferase
+CPLX0-7963,,{'b0543': 2},multidrug efflux pump EmrE / betaine:H+antiporter / choline:H+antiporter
+CPLX0-7964,,{'b3035': 3},outer membrane channel TolC
+CPLX0-7970,,{'b4327': 2},HypT-[Met]reduced
+CPLX0-7973,,{'b0102': 2},cell division factor ZapD
+CPLX0-7974,EG11702-MONOMER,{'b3996': 2},RNA decapping hydrolase
+CPLX0-7975,,{'b4390': 4},DNA-binding transcriptional repressor/NMN adenylyltransferase NadR
+CPLX0-7976,,"{'b4221': 1, 'b4220': 1}",translocation and assembly module = [TamB][TamA]
+CPLX0-7977,RsmH_mono,{'b0082': 2},16S rRNA m4C1402 methyltransferase
+CPLX0-7979,,{'b1734': 4},monoacetylchitobiose-6-phosphate hydrolase
+CPLX0-7981,,{'b0577': 7},miniconductance mechanosensitive channel YbdG
+CPLX0-7982,,"{""b1330"": 7}",small conductance mechanosensitive channel YnaI
+CPLX0-7983,,{'b0808': 7},moderate conductance mechanosensitive channel YbiO
+CPLX0-7984,,{'b3102': 2},glutathionyl-hydroquinone reductase YqjG
+CPLX0-7985,EG10374-MONOMER,{'b4159': 7},miniconductance mechanosensitive channel MscM
+CPLX0-7986,,"{'b2728': 1, 'b2729': 1}",HypCD complex involved in hydrogenase maturation = [HypD][HypC]
+CPLX0-7987,,"{""b3113"": 3}",tdcF predicted enamine/imine deaminase
+CPLX0-7988,,"{'b1394': 6, 'b1393': 6}",PaaF-PaaG hydratase-isomerase complex = [PaaG]6[PaaF]6
+CPLX0-7989,G6662-MONOMER,{'b1326': 2},murein tripeptide amidase A
+CPLX0-7990,,{'b3791': 2},dTDP-4-dehydro-6-deoxy-D-glucose transaminase
+CPLX0-7992,,"{'b3200': 1, 'b3201': 2, 'b3199': 1, 'b0054': 1, 'b4262': 1, 'b4261': 1, 'b0641': 1}",lipopolysaccharide transport system = [(LptD)(LptE)][LptG][LptC][LptA][LptB]2[LptF]
+CPLX0-7993,G6286-MONOMER,{'b0517': 2},ureidoglycolate dehydrogenase
+CPLX0-7994,,"{""b1021"": 1, ""b1022"":1}",Transporter: poly-N-acetyl-D-glucosamine synthase
+CPLX0-7997,,{'b3809': 2},poly-N-acetyl-D-glucosamine synthase = [PgaD][PgaC]
+CPLX0-7998,,{'b3205': 4},RNase adaptor protein RapZ
+CPLX0-8005,3-OXOACYL-ACP-REDUCT-MONOMER,"{""b1093"": 4}",fabG 3-Oxoacyl-[ACP] reductase 
+CPLX0-8006,,{'b1288': 4},enoyl-[acyl-carrier-protein] reductase
+CPLX0-8008,UDPGLCNACEPIM-MONOMER,{'b3786': 2},UDP-N-acetylglucosamine 2-epimerase
+CPLX0-801,,{'b3510': 2},periplasmic acid stress chaperone HdeA
+CPLX0-8016,UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-MONO,{'b0179' : 3},UDP-3-O-(3-hydroxymyristoyl)glucosamineN-acyltransferase
+CPLX0-8120,,"{u'b0864': 2, u'b0861': 1,  u'b0863': 1, u'b0862': 1}",
+CPLX0-8125,,"{u'b3532': 1, u'b3533': 1}",cellulose synthase = [BcsB][BcsA]
+CPLX0-8152,,"{u'b1917': 2, u'b1918': 2,u'b1920': 1}",cystine ABC transporter [TcyN]2[TcyL]2[TcyJ]
+CPLX0-8160,,"{'b0722': 3, 'b0723': 3, 'b0721': 3, 'b0724': 3}",succ_dehase mega complex
+CPLX0-8164,,{ u'b0826': 2},molybdopterin-synthase adenylyltransferase
+CPLX0-8174,,"{u'b2754': 2,u'b2755': 2}",Cas1-Cas2 comples
+CPLX0-8182,,"{'b3064': 1, 'b1807': 1, 'b4168': 1}",N6-L-threonylcarbamoyladenine synthase = [TsaE][(TsaB)(TsaD)]
+CPLX0-8188,,"{u'b1175': 2,u'b1176': 2}",Z-ring inhibitor complex MinCD
+CPLX0-8198,,{'b3163': 2},lipoprotein NlpI
+CPLX0-8199,,{'b1489': 2},DosP complex = [DosP]2
+CPLX0-8218,,{'b1490': 2},DosC2 complex = [DosC]2
+CPLX0-8223,,{'b0623' : 2},transcription antiterminator and regulator of RNA stability CspE
+CPLX0-8227,,"{u'b3362': 1, u'b3361': 1}",FicT-FicA complex = [Fic][YhfG]
+CPLX0-8238,,"{'b4072': 1, 'b4073': 1}",
+CPLX0-8249,,"{'b0712': 1, 'b0711': 1, 'b0713': 1}",5-oxoprolinase component C
+CPLX0-8279,,{'b1677' : 3},murein lipoprotein
+CPLX0-841,,"{ ""b2783"":2 }",MazE-toxin
+CPLX0-8539,,"{u'b4235': 1, u'b3244': 1}",metalloprotease TldDE [TldD][TldE]
+CPLX0-861,,{'b1967': 2},protein/nucleic acid deglycase 1
+CPLX0-881,,{'b0882': 6},ClpA ATP-dependent protease specificity component and chaperone
+CPLX0-901,TadA_dim,{'b2559': 2},tRNA adenosine34deaminase
+CPLX0-902,,{'b1461': 2},tautomerase PptA
+CPLX0-921,,{'b0220': 2},"periplasmic chaperone, inhibitor of vertebrate C-type lysozyme"
+CPLX0-981,,{'b1303': 6},DNA-binding transcriptional dual regulator PspF
+CPLX-155,,"{'b1738': 1, 'b1736': 1, 'b1737': 1}","N,N'-diacetylchitobiose-specific PTS enzyme II = [ChbA][ChbC][ChbB]"
+CPLX-156,,"{'b2933': 1, 'b2934': 1}",mannitol-specific PTS enzyme II CmtBA = [CmtB][CmtA]
+CPLX-159,,"{""b3899"": 1 , ""b3900"":1 }",putative PTS enzyme II FrvAB
+CPLX-160,,"{'b3950': 1, 'b3947': 1, 'b3953': 1, 'b3949': 1}",putative PTS enzyme II FrwCBDPtsA = [FrwC][FrwB][FrwD][PtsA]
+CPLX-170,,"{""b3138"": 1, ""b3139"":1,""b3140"":1 }",galactosamine-specific PTS enzyme II (cryptic)
+CPLX-3942,YheLMN_cplx,"{'b3343':2, 'b3344':2, 'b3345':2}",sulfurtransferase complex TusBCD
+CPLX-3945,,"{'b1038': 9, 'b1037': 9}",curli secretion and assembly complex = [CsgF]9[CsgG]9
+CPLX-3946,,"{'b2509': 1, 'b0422': 4}",exodeoxyribonuclease VII = [XseA][XseB]4
+CPLX-8331,,{'b0783': 6},cyclic pyranopterin monophosphate synthase
+CPLX-8401,,{'b2843': 2},5-dehydro-4-deoxy-D-glucuronate isomerase
+CPLXECOLI-7943,,{'b2700': 2},NMN amidohydrolase
+CREC-CPLX,,{'b4399': 2},sensor histidine kinase CreC
+CYANLY-CPLX,CPLX0-7520,{'b0340': 10},cyanase
+CYSSYNMULTI-CPLX,,"{'b2414': 2, 'b3607': 6}",cysteine synthase complex = [(CysE)6][(CysK)2]
+CYT-D-UBIOX-CPLX,,"{'b4515': 1, 'b0733': 1, 'b0734': 1, 'b4602': 1}",cytochromebd-I ubiquinol:oxygen oxidoreductase = [CydA][CydB][CydX][CydH]
+DALADEHYDROG-CPLX,,{'b1189': 2},D-amino acid dehydrogenase
+DnaBC-CPLX,,"{u'b4361': 6,u'b4052':6}",DNA helicase loading cplx
+DsbAB-CPLX,,"{u'b1185': 1,u'b3860': 1}",DsbAB-CPLX
+E1O,,{'b0726': 12},"2-oxoglutarate decarboxylase, thiamine-requiring"
+E1P-CPLX,,{'b0114': 2},pyruvate dehydrogenase
+E2O,,{'b0727': 24},dihydrolipoyltranssuccinylase
+E3-CPLX,,{'b0116': 2},lipoamide dehydrogenase
+EIISGC,,"{'b4565':1, 'b4304':1, 'b4302':1}",putative PTS enzyme II SgcBCA
+ENOLASE-CPLX,Eno_dim,{'b2779': 2},enolase
+ENTE-CPLX,,{'b0594': 2},"2,3-dihydroxybenzoate-[aryl-carrier protein] ligase"
+ENTMULTI-CPLX,,"{'b0583': 1, 'b0586': 1, 'b0595': 2, 'b0594': 2}",enterobactin synthase = [(EntB)2][EntD][EntF][(EntE)2]
+ENVZ-CPLX,,{'b3404' : 2},sensor histidine kinase EnvZ
+FAO-CPLX,,"{'b3846': 2, 'b3845': 2}",aerobic fatty acid oxidation complex = [FadB]2[FadA]2
+FimCDFGH,,"{'b4317': 1, 'b4316': 1, 'b4320': 1, 'b4319': 1, 'b4318': 1}",FimCDFGH chaperone
+FLAGELLAR-MOTOR-COMPLEX,,"{'b1080': 26, 'b1079': 26, 'b1078': 24, 'b1938': 34, 'b1939': 34, 'b1077': 5, 'b1073': 5, 'b1945': 34, 'b1889': 2, 'b1946': 102, 'b1074': 6, 'b1890': 5}",flagellar basal body
+F-O-CPLX,,"{'b3736': 2, 'b3737': 10, 'b3738': 1}",ATP synthase Focomplex = [(AtpE)10][(AtpF)2][AtpB]
+GALACTOACETYLTRAN-CPLX,,{'b0342': 3},galactosideO-acetyltransferase
+GCVP-CPLX,,{'b2903': 2},glycine decarboxylase
+GLNG-CPLX,,{'b3868': 2},DNA-binding transcriptional dual regulator NtrC
+GLNL-CPLX,,{'b3869': 2},protein histidine kinase NtrB
+GlucD-GlucDRP,,"{u'b2788': 2,u'b2787': 2}",D-glucarate dehydratase
+GLYS-CPLX,Gly_RS_tetra,"{'b3559': 2, 'b3560': 2}",glycine葉RNA ligase = [GlyS]2[GlyQ]2
+GstB_dim,,{u'b0838': 2},glutathioneS-transferase GstB
+GST-CPLX,,{'b1635': 2},glutathioneS-transferase GstA
+HicAB-CPLX,,"{u'b1438': 2,u'b4532': 2}",mRNA interferase toxin/anti-toxin
+HigAB-CPLX,,"{u'b3083': 2,u'b3082': 2}",ribosome-dependent mRNA interferase toxin/anit-toxin
+HISS-CPLX,His_RS_dim,{'b2514': 2},histidine葉RNA ligase
+KDPD-CPLX,,{'b0695': 2},sensor histidine kinase KdpD
+LYSS-CPLX,LysI_RS_dim,{'b2890': 2},"lysine葉RNA ligase, constitutive"
+LYSU-CPLX,LysII_RS_dim,{'b4129': 2},lysine葉RNA ligase [multifunctional]
+METG-CPLX,Met_RS_dim,{'b2114': 2},methionine葉RNA ligase
+MUTHLS-CPLX,,"{'b2733': 2, 'b2831': 1, 'b4170': 1}","MutHLS complex, methyl-directed mismatch repair = [MutL][MutS]2[MutH]"
+NARQ-CPLX,,{'b2469': 2},sensor histidine kinase NarQ
+NARX-CPLX,,{'b1222': 2},sensor histidine kinase NarX
+NmPC-CPLX,,{u'b0553': 3},putative outer membrane porin NmpC
+NRDE-CPLX,,{'b2675': 2},"ribonucleoside-diphosphate reductase 2, ? subunit dimer"
+NRDF-CPLX,,{'b2676': 2},"ribonucleoside-diphosphate reductase 2, ? subunit dimer"
+OmpN_tri,,{u'b1377': 3},outer membrane porin N
+PABASYN-CPLX,,"{'b3360': 1, 'b1812': 1}",4-amino-4-deoxychorismate synthase = [PabB][PabA]
+PanDZ-CPLX,,"{u'b3459': 4,u'b0131': 4}",aspartate 1-decarboxylase
+PC00003,,{'b0064': 2},DNA-binding transcriptional dual regulator AraC
+PC00004,,{'b3357': 2},DNA-binding transcriptional dual regulator CRP
+PC00005,,{'b3237': 6},DNA-binding transcriptional dual regulator ArgR
+PC00007,,{'b4393': 2},DNA-binding transcriptional repressor TrpR
+PC00010,,{'b4043': 2},DNA-binding transcriptional repressor LexA
+PC00027,,"{'b1712': 1, 'b0912': 1}",DNA-binding transcriptional dual regulator IHF = [IhfA][IhfB]
+PC00033,,{'b1658': 2},DNA-binding transcriptional repressor PurR
+PC00040,,{'b1275': 4},DNA-binding transcriptional dual regulator CysB
+PC00061,,{'b0080': 4},DNA-binding transcriptional dual regulator Cra
+PC00084,,"{'b2217': 1, 'b1951': 1}",RcsAB DNA-binding transcriptional dual regulator = [RcsB][RcsA]
+PC00086,,{'b3905': 2},transcriptional activator RhaS
+PC00103,,{'b0730': 2},DNA-binding transcriptional repressor MngR
+PHES-CPLX,Phe_RS_tetra,"{'b1713': 2, 'b1714': 2}",phenylalanine葉RNA ligase = [PheS]2[PheT]2
+PHOR-CPLX,,{'b0400': 2},sensor histidine kinase PhoR
+PHOSPHASERDECARB-DIMER,,"{""b4160"": 4}",phosphatidylserine decarboxylase
+PHOSPHO-OMPR,,{'b3405': 2},DNA-binding transcriptional dual regulator OmpR-phosphorylated
+PII2-CPLX,,{'b0450': 3},nitrogen regulatory protein PII-2
+PIIPROTEIN-CPLX,,{'b2553': 3},nitrogen regulatory protein PII-1
+Prc-NlpI-CPLX,,"{u'b1830': 2, 'b3163' : 2}",tail-specific protease
+PROS-CPLX,Pro_RS_dim,{'b0194': 2},proline葉RNA ligase
+PROTEIN-NRIP,,{'b3868': 6},DNA-binding transcriptional dual regulator NtrC
+QOR-CPLX,,{'b4051': 2},putative quinone oxidoreductase 1
+RECBCD,,"{'b2819': 1, 'b2822': 1, 'b2820': 1}",exodeoxyribonuclease V = [RecD][RecC][RecB]
+RNAP32-CPLX,,"{""b3987"": 1, ""b3988"":1,""b3295"":2,""b3461"":1 }",RNA poly sigma 32 holoenzyme
+RNAP54-CPLX,,"{'b3295': 2, 'b3988': 1, 'b3987': 1, 'b3202': 1}",RNA polymerase sigma 54 = [(RpoA)2(RpoC)(RpoB)][RpoN]
+RNAP70-CPLX,,"{'b3067': 1, 'b3295': 2, 'b3988': 1, 'b3987': 1}",RNA polymerase sigma 70 = [(RpoA)2(RpoC)(RpoB)][RpoD]
+RNAPE-CPLX,,"{'b3295': 2, 'b3988': 1, 'b3987': 1, 'b2573': 1}",RNA polymerase sigma 24 = [(RpoA)2(RpoC)(RpoB)][RpoE]
+RNAPS-CPLX,,"{""b3987"": 1, ""b3988"":1,""b3295"":2,""b2741"":1 }",RNA polymerase sigma S
+RppH-DapF-CPLX,,"{u'b2830': 1,u'b3809': 1}",mRNA degradation enzyme
+RUVABC-CPLX,,"{'b1863': 2, 'b1860': 12, 'b1861': 4}",resolvasome = [RuvC]2[RuvB]12[RuvA]4
+SAMDECARB-CPLX,,{'b0120': 8},S-adenosylmethionine decarboxylase = [SpeD]4[SpeD]4
+SdhAE-CPLX,,"{u'b2897': 1,u'b2896': 1}",CptA-CptB toxin-antitoxin system
+SECD-SECF-YAJC-YIDC-CPLX,,"{'b0409': 1, 'b0408': 1, 'b0407': 1}",Sec translocon accessory complex = [SecD][SecF][YajC]
+SECE-G-Y-CPLX,,"{'b3300': 1, 'b3981': 1, 'b3175': 1}",SecYEG translocon = [SecE][SecG][SecY]
+SEC-SECRETION-CPLX,,"{'b0407': 1, 'b3175': 1, 'b3705': 1, 'b3300': 1, 'b0409': 1, 'b0408': 1, 'b3981': 1}",Sec Holo-Translocon = [(SecD)(SecF)(YajC)][(SecE)(SecG)(SecY)][YidC]
+SERS-CPLX,Ser_RS_dim,{'b0893': 2},serine葉RNA ligase
+SoxR_dim,,{u'b4063': 2},DNA-binding transcriptional dual regulator SoxR
+SRP-CPLX_eco,,"{u'b2610': 1,u'b0455': 1}",SRP-cplx from ecocyc
+SULFATE-ADENYLYLTRANS-CPLX,CPLX0-7428,"{'b2751': 4, 'b2752': 4}",sulfate adenylyltransferase = [CysD]4[CysN]4
+TAP-CPLX,,"{'b1888': 2, 'b1885': 12, 'b1887': 2}",chemotaxis signaling complex - dipeptide sensing = [(CheA)2][CheW]2[(Tap)2]6
+TAR-CPLX,,"{'b1888': 2, 'b1886': 12, 'b1887': 2}",chemotaxis signaling complex - aspartate sensing = [(CheA)2][CheW]2[(Tar)2]6
+TATABCE-CPLX,,"{""b3838"": 1, ""b3839"":1,""b0627"":1,""b3836"":1 }",Tat system; Tat translocase;
+THIOREDOXIN-REDUCT-NADPH-CPLX,,{'b0888': 2},thioredoxin reductase
+THRS-CPLX,Thr_RS_dim,{'b1719': 2},threonine葉RNA ligase
+TORR-CPLX,,{'b0995': 2},DNA-binding transcriptional dual regulator TorR
+TORS-CPLX,,{'b0993': 2},sensor histidine kinase TorS
+TPI,TPI-CPLX,{'b3919': 2},triose-phosphate isomerase
+TRANS-200-CPLX,,"{'b3035': 3, 'b0878': 6, 'b0879': 2}",ABC-type tripartite efflux pump = [(TolC)3][MacB]2[MacA]6
+TRANS-CPLX-202,,"{'b2074': 6, 'b2075': 2, 'b3035': 3, 'b2076': 1}",multidrug efflux pump MdtABC-TolC = [(TolC)3][MdtC][MdtB]2[MdtA]
+TRANS-CPLX-204,,"{ u'b3035': 3, u'b3513': 6, u'b3514': 3}",multidrug efflux pump MdtEF-TolC = [(TolC)3][MdtE][MdtF]
+TRG-CPLX,,"{'b1888': 2, 'b1421': 12, 'b1887': 2}",chemotaxis signaling complex - ribose/galactose/glucose sensing = [(CheA)2][CheW]2[(Trg)2]6
+TRPS-CPLX,Trp_RS_dim,{'b3384': 2},tryptophan葉RNA ligase
+TSR-CPLX,,"{'b1888': 2, 'b4355': 12, 'b1887': 2}",chemotaxis signaling complex - serine sensing = [CheW]2[(CheA)2][(Tsr)2]6
+TYRS-CPLX,Tyr_RS_dim,{'b1637': 2},tyrosine葉RNA ligase
+UVRABC-CPLX,,"{'b4058': 1, 'b1913': 1, 'b0779': 1}",excision nuclease UvrABC = [UvrB][UvrC][UvrA]
+wzzB_o_antigen_poly,,{u'b2027': 8},
+yddL_CPLX,,{u'b1472': 3},putative uncharacterized protein YddL
