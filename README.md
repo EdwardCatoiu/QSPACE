@@ -1,5 +1,7 @@
 # QSPACE
-This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <b>A</b>tlas of a <b>Ce</b>ll (QSPACE) as described in ___link___.  
+This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <b>A</b>tlas of a <b>Ce</b>ll (QSPACE) as described in ___link___. 
+
+Reach out by email (ecatoiu@ucsd.edu)!
 
 # Description
 For any list of genes and protein-complexes with annotated gene-stoichiometries, QPSACE identifies the protein structures that best represent the oligomeric state of the protein complexes that can be re-created from the gene list input. For genes outside the annotated oligomeric protein complexes, QSPACE will use structure-guided analysis to semi-automatically confirm oligomerization of monomer/non-annotated genes in the gene list. When no structures from existing databses can re-create the oligomeric proteins, QSPACE will genereate multi-gene fasta files that can be modelled with ColabFold/Alphafold Multimer. Once the oligomeric structures are determined, protein structural properties, functionally important enzyme domains, wild-type sequence variation, and laboratory mutants are mapped in 3D. QSPACE structures are also oriented across the cell membrane using data from UniProt/OPM/deepTMHMM. 
