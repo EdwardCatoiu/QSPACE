@@ -48,34 +48,39 @@ The following modules require additional run-times (1st run)
 - Module 005C (OPM server calculations)
 - Module 006B/D (SCRATCH, ScanNet)
 
-# Graphical Description of Select Modules
+# Graphical Abstract
+This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <b>A</b>tlas of a <b>Ce</b>ll (QSPACE). This oligomeric structural representation of protein complexes includes the calculation of protein structural properties, residue-level membrane integration and subcellular compartmentalization, and mapping of functionally important regions and mutational databases.
+
+<p align="left">
+  <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig1_qspace_low_qual.jpg">
+</p>
+
+# Description of Select Modules
 
 #### Module 3-4
 <i>Module 3A</i> determines the protein structures that can be mapped to the protein complexes (Panel 2a.i).
 <i>Module 3B</i> performs a structure-guided re-annotation of falsely annotated protein monomers (Panel 2a.ii).
 <i>Module 3C/D</i> generates protein complex sequences and for integration with alphafold multimer/colabfold and QCQA of multimer predictions (Panel 2a.iii).
 <i>Module 4A</i> determines the final protein represenation of all protein complexes (Panel 2b-d).
-
 <p align="left">
-  <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig2_qspace.jpg">
+  <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig2_qspace_low_qual.jpg">
 </p>
 
 #### Module 5
 <i>Module 5A</i> finds all potential membrane structures (Panel 4a).
 <i>Module 5B-D</i> calculates membrane embeddededness of proteins (Panel 4b).
-<i>Module 5E</i> qcqa membrane calculations and identifies viable membrane planes (Panel 4c).
+<i>Module 5E</i> performs QCQA analysis of the membrane calculations and identifies viable membrane planes (Panel 4c).
 <i>Module 5F</i> orients each protein across the membrane with angstrom-level precision and maps the residue-level information back to the QSPACE (Panel 4d-e).
-
 <p align="left">
-  <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig4_qspace.jpg">
+  <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig4_qspace_low_qual.jpg">
 </p>
 
 ### Module 7
-<i>Module 7A</i> maps all enzymatically important regions to the QSPACE (Pane 3a, left).
+<i>Module 7A</i> maps all enzymatically important regions to the QSPACE (Panel 3a, left).
 <i>Module 7B/C</i> maps laboratory-acquired mutations from ALE and LTEE datasets to the QSPACE (Panel 3a, center).
-<i>Module 7D</i> maps alleleome wild-type sequence variation to the QSPACE (Panel 3a,right).
+<i>Module 7D</i> maps [the alleleome](https://www.pnas.org/doi/10.1073/pnas.2218835120) wild-type sequence variation [data](https://github.com/EdwardCatoiu/Alleleome) to the QSPACE (Panel 3a,right).
 
 <p align="left">
-  <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig3_qspace.jpg">
+  <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig3_module7A-D_low_qual.jpg">
 </p>
 
