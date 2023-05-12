@@ -77,7 +77,7 @@ This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <
 
 ### Module 7
 <i>Module 7A</i> maps all enzymatically important regions to the QSPACE (Panel 3a, left).
-<i>Module 7B/C</i> maps laboratory-acquired mutations from ALE and LTEE datasets to the QSPACE (Panel 3a, center).
+<i>Module 7B/C</i> maps laboratory-acquired mutations from [ALE](https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/Inputs/007B-ALE_mutations_input.csv) and [LTEE](https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/Inputs/007C-LTEE_mutations_input.csv) datasets to the QSPACE (Panel 3a, center).
 <i>Module 7D</i> maps [the alleleome](https://www.pnas.org/doi/10.1073/pnas.2218835120) wild-type sequence variation [data](https://github.com/EdwardCatoiu/Alleleome) to the QSPACE (Panel 3a,right).
 
 <p align="left">
