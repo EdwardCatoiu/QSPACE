@@ -43,7 +43,14 @@ class QSPACE():
     """Generic class containing all directories necessary 
     """
 
-    def __init__(self, ProjectName, create_dirs=True, root_dir=None,external_hardDrive_dir = None, results_dir = None,input_dir = None):#, ssbio_dir = None):
+    def __init__(self,
+                 ProjectName,
+                 create_dirs=True, 
+                 root_dir=None,
+                 external_hardDrive_dir = None,
+                 results_dir = None,
+                 input_dir = None,
+                demo = False):
         """Initialize the QSPACE project.
 
         Specify the name of your project, 
@@ -119,7 +126,7 @@ class QSPACE():
         
         
         if create_dirs:
-            self._create_dirs(root_dir, input_dir, results_dir, self.id)
+            self._create_dirs(root_dir, input_dir, results_dir, self.id, demo)
         
         directories = copy.deepcopy(self.__dict__)
         for key in ['id']:
@@ -129,7 +136,7 @@ class QSPACE():
             json.dump(directories,f)
 #         print (directories)
         
-    def _create_dirs(self, root_dir, input_dir, results_dir, ProjectName):
+    def _create_dirs(self, root_dir, input_dir, results_dir, ProjectName,demo):
         """Internal method to create QSPACE directories.
 
         data_dir is created at data/ProjectName
@@ -217,7 +224,10 @@ class QSPACE():
         self.alphafoldMetricsDir = op.join(self.externalHardDrive_dir, 'structures','all_alphafold-metrics')
         list_of_dirs.append(self.alphafoldMetricsDir)
         # alphafoldMultimerDir - directory where all alphafold multimer models will be stored
-        self.alphafoldMultimerDir = op.join(self.externalHardDrive_dir, 'structures','all_alphafoldMultimer')
+        if not demo:
+            self.alphafoldMultimerDir = op.join(self.externalHardDrive_dir, 'structures','all_alphafoldMultimer')
+        else:
+            self.alphafoldMultimerDir = op.join(self.root_dir, "Demo_Results" , 'AFMstructures')
         list_of_dirs.append(self.alphafoldMultimerDir)
         # swissStructuresDir - directory where all SWISS MODELS will be stored
         self.swissStructuresDir = op.join(self.externalHardDrive_dir, 'structures','all_swiss')
@@ -291,7 +301,10 @@ class QSPACE():
         list_of_dirs.append(self.opmStructuresToSendDir)
         
         # opmOutputStructuresDir - directory where all OPM-generated .pdb structures will be stored
-        self.opmOutputStructuresDir = op.join(self.externalHardDrive_dir,'results','results_OPM', 'OPMstructures_new')
+        if not demo:
+            self.opmOutputStructuresDir = op.join(self.externalHardDrive_dir,'results','results_OPM', 'OPMstructures_new')
+        else: #byass the opm server for demo.
+            self.opmOutputStructuresDir = op.join(self.root_dir,'Demo_Results','fromOPMstructures')
         list_of_dirs.append(self.opmOutputStructuresDir)
         
         # opmOutputDataDir - directory where all OPM-generated data will be stored
