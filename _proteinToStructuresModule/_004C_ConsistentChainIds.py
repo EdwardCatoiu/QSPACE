@@ -175,7 +175,7 @@ def map_dfChain_to_sfileChain(dfallchains,dfallchains_w_seq, dfQuatProteome):
     print ("Resolving chains in structures vs chains in QSPACE dataframe...\n-------------------------------------")
 
     translation_glob = {}
-    for index, row in dfallchains.iterrows():
+    for index, row in tqdm (dfallchains.iterrows()):
         dfs = dfQuatProteome[dfQuatProteome.structureId == index]
         dfs = dfs[dfs.structNum.isna() == False]
         dfs_allchains_w_seq = dfallchains_w_seq[dfallchains_w_seq.structureId == index]

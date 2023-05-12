@@ -326,7 +326,7 @@ def run_005E_gapFillMissingTopoDomains(dfsource,
                         cr = dfchain[dfchain.seqNum == uniprotResnum].Chain_Residue.values[0]
                         uniprotTopoLocation_dict.update({cr : uniprotTopoLocation})
                     except IndexError:
-                        log.warn("unable to map {} - {} - {}".format(uniprotResnum, uniprotTopoLocation,cr))
+                        log.warn("unable to map {} - {}".format(uniprotResnum, uniprotTopoLocation))
                         continue
         if uniprotTopoLocation_dict == {}:
             checked +=[index]
