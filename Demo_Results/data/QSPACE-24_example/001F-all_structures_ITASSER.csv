@@ -1,0 +1,25 @@
+,stype,gene_stoichiometry,pdb_quality,identical_structures,AA_length,total_quality,percent_true,quality_rank,percent_true_rank
+CAIF_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0034': 1},"{'b0034': {'X': [True, 56.10000000000001]}}",['CAIF_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],131.0,56.10000000000001,1.0,1.0,1.0
+HOFB_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0107': 1},"{'b0107': {'X': [True, 78.0572]}}",['HOFB_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],461.0,78.0572,1.0,1.0,1.0
+LPXD_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0179': 1},"{'b0179': {'X': [True, 65.9]}}",['LPXD_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],341.0,65.9,1.0,1.0,1.0
+INSI1_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0256': 1},"{'b0256': {'X': [False, 48.4]}}",['INSI1_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],383.0,48.4,0.0,1.0,1.0
+MALZ_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0403': 1},"{'b0403': {'X': [True, 95.9]}}",['MALZ_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],604.0,95.9,1.0,1.0,1.0
+ACRB_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0462': 1},"{'b0462': {'X': [False, 43.2]}}",['ACRB_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],1049.0,43.2,0.0,1.0,1.0
+ACRA_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0463': 1},"{'b0463': {'X': [False, 45.0]}}",['ACRA_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],397.0,45.0,0.0,1.0,1.0
+RIHA_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0651': 1},"{'b0651': {'X': [True, 95.7]}}",['RIHA_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],311.0,95.7,1.0,1.0,1.0
+YBIO_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0808': 1},"{'b0808': {'X': [True, 57.49999999999999]}}",['YBIO_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],741.0,57.49999999999999,1.0,1.0,1.0
+MACA_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0878': 1},"{'b0878': {'X': [False, 47.8]}}",['MACA_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],371.0,47.8,0.0,1.0,1.0
+MACB_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0879': 1},"{'b0879': {'X': [True, 54.568799999999996]}}",['MACB_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],648.0,54.568799999999996,1.0,1.0,1.0
+CSPD_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b0880': 1},"{'b0880': {'X': [True, 85.3]}}",['CSPD_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],74.0,85.3,1.0,1.0,1.0
+NARL_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b1221': 1},"{'b1221': {'X': [True, 97.2]}}",['NARL_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],216.0,97.2,1.0,1.0,1.0
+ACKA_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b2296': 1},"{'b2296': {'X': [True, 88.9]}}",['ACKA_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],400.0,88.9,1.0,1.0,1.0
+YFCS_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b2336': 1},"{'b2336': {'X': [True, 89.81280000000001]}}",['YFCS_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],250.0,89.81280000000001,1.0,1.0,1.0
+PROV_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b2677': 1},"{'b2677': {'X': [True, 76.6]}}",['PROV_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],400.0,76.6,1.0,1.0,1.0
+PROW_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b2678': 1},"{'b2678': {'X': [False, 46.410000000000004]}}",['PROW_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],354.0,46.410000000000004,0.0,1.0,1.0
+PROX_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b2679': 1},"{'b2679': {'X': [True, 92.7344]}}",['PROX_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],330.0,92.7344,1.0,1.0,1.0
+RECX_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b2698': 1},"{'b2698': {'X': [False, 44.4]}}",['RECX_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],166.0,44.4,0.0,1.0,1.0
+TOLC_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b3035': 1},"{'b3035': {'X': [True, 87.9]}}",['TOLC_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],493.0,87.9,1.0,1.0,1.0
+AAEB_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b3240': 1},"{'b3240': {'X': [True, 81.0]}}",['AAEB_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],655.0,81.0,1.0,1.0,1.0
+AAEA_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b3241': 1},"{'b3241': {'X': [False, 47.2]}}",['AAEA_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],310.0,47.2,0.0,1.0,1.0
+AROE_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b3281': 1},"{'b3281': {'X': [True, 99.8]}}",['AROE_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],272.0,99.8,1.0,1.0,1.0
+STHA_ECOLI_model1_clean_residues_removed_&_NOBFS_0,ITASSER,{'b3962': 1},"{'b3962': {'X': [True, 95.2]}}",['STHA_ECOLI_model1_clean_residues_removed_&_NOBFS_0'],466.0,95.2,1.0,1.0,1.0

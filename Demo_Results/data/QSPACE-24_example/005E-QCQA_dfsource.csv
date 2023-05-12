@@ -1,0 +1,9 @@
+,OPM,Uniprot,TMHMM,final_source,orient_Uniprot,UniprotIds,Uniprot_bulb_orient
+5o66-assembly1,"['O_vector', 'N_vector']","['Periplasmic_E', 'Extracellular', 'Cytoplasmic', 'Periplasmic_C']",,Uniprot,True,"['P02930', 'P31224', 'P02930', 'P31224']","{'Periplasmic_E': 'Periplasmic_E', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic', 'Periplasmic_C': 'Periplasmic_C'}"
+5nik-assembly1,"['O_vector', 'N_vector']","['Periplasmic_E', 'Extracellular', 'Cytoplasmic', 'Periplasmic_C']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",Uniprot,True,"['P75830', 'P75831', 'P02930', 'P75830', 'P75831', 'P02930']","{'Periplasmic_E': 'Periplasmic_E', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic', 'Periplasmic_C': 'Periplasmic_C'}"
+P02930_23_458_5bun,"['O_vector', 'N_vector']","['Periplasmic_E', 'Extracellular']",,OPM,True,['P02930'],"{'N': 'Periplasmic_E', 'O': 'Extracellular'}"
+ABC-26-CPLX_AlphaMulti,"['O_vector', 'N_vector']",,"['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,,,
+b3241_6__AlphaMulti,"['O_vector', 'N_vector']","['TM_2', 'TM_1']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,True,['P46482'],
+AF-P77599-F1-model_v2,"['O_vector', 'N_vector']",,,OPM,,,
+P75783_462_727_3udc,"['O_vector', 'N_vector']","['TM_2', 'TM_1']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,True,['P75783'],
+b3240_3__AlphaMulti,"['O_vector', 'N_vector']",,"['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,,,

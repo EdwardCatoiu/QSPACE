@@ -1,0 +1,11 @@
+,finalGeneStoich,stoichChanged,method,caseNum,evidenceSupported,evidenceIgnored
+Unmodelled_MONOMER_b2336,{'b2336': 1},False,manual curation,V,,fimbral
+UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-MONO,{u'b0179': 3},True,manual curation,V,"{""{'b0179': 3}"": {'3eh0-assembly1.cif_&_NOBFS_0': 99.7, 'P21645_3_340_6p83_&_NOBFS_0': 98.59999999999998}}","{""{'b0179': 6}"": {'4ihf-assembly3.cif_&_NOBFS_0': 98.06666666666666}}"
+Unmodelled_MONOMER_b0107,{'b0107': 6},True,automatic SWISS,II,"{""{'b0107': 6}"": {'P36645_77_458_5zfr_&_NOBFS_0': 82.63333333333333}}",
+Unmodelled_MONOMER_b0256,{'b0256': 1},False,automatic SWISS,II,,"{""{'b0256': 2}"": {'P0CF88_57_361_4r79_&_NOBFS_0': 79.6}}"
+MALTODEXGLUCOSID-MONOMER,{'b0403': 2},True,manual curation,IV,"{""{'b0403': 2}"": {'7vt9-assembly1.cif_&_NOBFS_0': 100.0}}","{""{'b0403': 1}"": {'P21517_2_603_5z0t_&_NOBFS_0': 99.7}}"
+Unmodelled_MONOMER_b2698,{'b2698': 1},False,manual curation,IV,"{""{'b2698': 1}"": {'P33596_9_161_3c1d_&_NOBFS_0': 92.2}}","{""{'b2698': 2}"": {'3c1d-assembly3.cif_&_NOBFS_0': 87.05000000000003}}"
+ACETATEKINA-MONOMER,{'b2296': 2},True,automatically PDB+SWISS,I,"{""{'b2296': 2}"": {'P0A6A3_1_400_3slc_&_NOBFS_0': 99.75, '3sk3-assembly1.cif_&_NOBFS_0': 94.5}}",{}
+AROE-MONOMER,{'b3281': 4},True,manual curation,III,"{""{'b3281': 4}"": {'P15770_1_271_1nyt_&_NOBFS_0': 99.35, '1nyt-assembly1.cif_&_MATCH_0': 99.35}}","{""{'b3281': 8}"": {'1nyt-assembly2.cif_&_MATCH_0': 99.35}}"
+G6358-MONOMER,{'b0651': 4},True,manual curation,III,"{""{'b0651': 4}"": {'P41409_2_311_3g5i_&_NOBFS_0': 99.7, '1yoe-assembly4.cif_&_MATCH_2': 96.2}}","{""{'b0651': 2}"": {'1yoe-assembly3.cif_&_MATCH_2': 96.2}}"
+Unmodelled_MONOMER_b1221,{'b1221': 1},False,manual curation,III,,"{""{'b1221': 2}"": {'1rnl-assembly3.cif_&_MATCH_5': 92.6}, ""{'b1221': 4}"": {'1rnl-assembly2.cif_&_MATCH_5': 92.6}}"

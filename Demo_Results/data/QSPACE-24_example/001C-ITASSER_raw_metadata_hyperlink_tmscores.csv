@@ -1,0 +1,25 @@
+UniProt AC,Entry Name,TM Helix,Length,Native,TM-score,hyperlink,template
+P46481,AAEB_ECOLI,186.0,655.0,,0.81,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E10886,3ea5B
+P0A6A3,ACKA_ECOLI,0.0,400.0,,0.889,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E10904,2e1yA
+P36645,HOFB_ECOLI,0.0,461.0,,0.884,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E11813,1p9wA
+P75830,MACA_ECOLI,18.0,371.0,3fppB,0.478,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12082,1fxkB
+P14175,PROV_ECOLI,0.0,400.0,,0.766,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12572,1oxtA
+P27306,STHA_ECOLI,3.0,466.0,,0.952,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12950,1dxlA
+P02930,TOLC_ECOLI,5.0,493.0,1tqqA,0.879,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E13029,1tqqA
+P0AE06,ACRA_ECOLI,7.0,397.0,2f1mC,0.45,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E10909,1kd9A
+P15770,AROE_ECOLI,0.0,272.0,1nytA,0.998,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E11022,1nytA
+P21645,LPXD_ECOLI,0.0,341.0,3eh0A,0.659,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12058,1j2zA
+P75831,MACB_ECOLI,77.0,648.0,,0.636,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12083,1f3oA
+P21517,MALZ_ECOLI,3.0,604.0,,0.959,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12099,1izkA
+P0AF28,NARL_ECOLI,0.0,216.0,1a04A,0.972,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12307,1a04A
+P14176,PROW_ECOLI,130.0,354.0,,0.714,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12573,3dhwA
+P41409,RIHA_ECOLI,0.0,311.0,3g5iA,0.957,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12732,3b9xA
+P75783,YBIO_ECOLI,236.0,741.0,,0.575,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E13358,1b3uA
+P77599,YFCS_ECOLI,17.0,250.0,,0.924,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E13709,3dpaA
+P0A968,CSPD_ECOLI,0.0,74.0,,0.853,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E10048,1mjcA
+P46482,AAEA_ECOLI,20.0,310.0,,0.472,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E10885,1lrzA
+P31224,ACRB_ECOLI,184.0,1049.0,3d9bA,0.432,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E10910,2r2vA
+P0CF88,INSI1_ECOLI,0.0,383.0,,0.484,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E11940,1c0mC
+P0AFM2,PROX_ECOLI,7.0,330.0,1r9lA,0.968,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12574,1r9lA
+P33596,RECX_ECOLI,0.0,166.0,,0.444,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli2/E12681,1ldjA
+P0AE58,CAIF_ECOLI,0.0,131.0,,0.561,http://zhanglab.dcmb.med.umich.edu/QUARK/ecoli/E10024,1lvaA

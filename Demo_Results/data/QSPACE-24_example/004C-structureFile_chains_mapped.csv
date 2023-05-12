@@ -1,0 +1,22 @@
+,sfileChains,structChain,structChainId,structChainId_mod,use_reference,mismatch_reference,chain_translation
+AF-P0AE58-F1-model_v2,{'A'},{'A'},{'A'},{'A'},structChain,,{'A': 'A'}
+7vt9-assembly1,"{'A', 'B'}","{'A', 'B'}","{'A-0', 'B-0'}","{'A', 'B'}",structChain,,"{'A': 'A', 'B': 'B'}"
+P75783_462_727_3udc,"{'G', 'D', 'C', 'F', 'B', 'E', 'A'}","{'G', 'C', 'D', 'F', 'B', 'E', 'A'}","{'G', 'C', 'D', 'F', 'B', 'E', 'A'}","{'G', 'C', 'D', 'F', 'B', 'E', 'A'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E', 'F': 'F', 'G': 'G'}"
+4ocg-assembly2,"{'A-3', 'A-2', 'B-3', 'B', 'A', 'B-2'}","{'A', 'B'}","{'A-0', 'A-1', 'B-0', 'A-2', 'B-1', 'B-2'}","{'A', 'B'}",,structChainId,"{'A-0': 'A', 'A-1': 'A-2', 'A-2': 'A-3', 'B-0': 'B', 'B-1': 'B-2', 'B-2': 'B-3'}"
+P27306_7_463_3urh,"{'A', 'B'}","{'A', 'B'}","{'A', 'B'}","{'A', 'B'}",structChain,,"{'A': 'A', 'B': 'B'}"
+3eh0-assembly1,"{'A', 'B', 'C'}","{'A', 'B', 'C'}","{'A-0', 'B-0', 'C-0'}","{'A', 'B', 'C'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C'}"
+P0AF28_5_216_1a04,{'A'},{'A'},{'A'},{'A'},structChain,,{'A': 'A'}
+1nyt-assembly1,"{'D', 'A', 'B', 'C'}","{'C', 'A', 'B', 'D'}","{'D-0', 'A-0', 'B-0', 'C-0'}","{'C', 'A', 'B', 'D'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D'}"
+AF-P77599-F1-model_v2,{'A'},{'A'},{'A'},{'A'},structChain,,{'A': 'A'}
+5nik-assembly1,"{'G', 'I', 'J', 'D', 'C', 'F', 'B', 'K', 'H', 'E', 'A'}","{'G', 'I', 'J', 'D', 'C', 'F', 'B', 'K', 'H', 'E', 'A'}","{'G-0', 'A-0', 'C-0', 'D-0', 'J-0', 'B-0', 'I-0', 'H-0', 'E-0', 'K-0', 'F-0'}","{'G', 'I', 'J', 'D', 'C', 'F', 'B', 'K', 'H', 'E', 'A'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E', 'F': 'F', 'G': 'G', 'H': 'H', 'I': 'I', 'J': 'J', 'K': 'K'}"
+P36645_77_458_5zfr,"{'D', 'C', 'F', 'B', 'E', 'A'}","{'C', 'D', 'F', 'B', 'E', 'A'}","{'C', 'D', 'F', 'B', 'E', 'A'}","{'C', 'D', 'F', 'B', 'E', 'A'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E', 'F': 'F'}"
+P41409_2_311_3g5i,"{'D', 'A', 'B', 'C'}","{'C', 'A', 'B', 'D'}","{'C', 'A', 'B', 'D'}","{'C', 'A', 'B', 'D'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D'}"
+P0A968_1_67_3cam,"{'A', 'B'}","{'A', 'B'}","{'A', 'B'}","{'A', 'B'}",structChain,,"{'A': 'A', 'B': 'B'}"
+P02930_23_458_5bun,"{'A', 'B', 'C'}","{'A', 'B', 'C'}","{'A', 'B', 'C'}","{'A', 'B', 'C'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C'}"
+b3241_6__AlphaMulti,"{'D', 'C', 'F', 'B', 'E', 'A'}","{'D', 'C', 'F', 'B', 'E', 'A'}","{'D', 'C', 'F', 'B', 'E', 'A'}","{'D', 'C', 'F', 'B', 'E', 'A'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E', 'F': 'F'}"
+b3240_3__AlphaMulti,"{'A', 'B', 'C'}","{'A', 'B', 'C'}","{'A', 'B', 'C'}","{'A', 'B', 'C'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C'}"
+AF-P33596-F1-model_v2,{'A'},{'A'},{'A'},{'A'},structChain,,{'A': 'A'}
+P0A6A3_1_400_3slc,"{'A', 'B'}","{'A', 'B'}","{'A', 'B'}","{'A', 'B'}",structChain,,"{'A': 'A', 'B': 'B'}"
+ABC-26-CPLX_AlphaMulti,"{'D', 'C', 'B', 'E', 'A'}","{'D', 'C', 'B', 'E', 'A'}","{'D', 'C', 'B', 'E', 'A'}","{'D', 'C', 'B', 'E', 'A'}",structChain,,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E'}"
+5o66-assembly1,"{'N', 'G', 'I', 'J', 'D', 'C', 'L', 'O', 'F', 'B', 'K', 'H', 'E', 'A', 'M'}","{'G', 'I', 'J', 'D', 'C', 'L', 'F', 'B', 'K', 'H', 'E', 'A'}","{'G-0', 'A-0', 'C-0', 'D-0', 'J-0', 'B-0', 'I-0', 'H-0', 'E-0', 'K-0', 'F-0', 'L-0'}","{'G', 'I', 'J', 'D', 'C', 'L', 'F', 'B', 'K', 'H', 'E', 'A'}",,structChain,"{'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E', 'F': 'F', 'G': 'G', 'H': 'H', 'I': 'I', 'J': 'J', 'K': 'K', 'L': 'L'}"
+AF-P0CF88-F1-model_v2,{'A'},{'A'},{'A'},{'A'},structChain,,{'A': 'A'}

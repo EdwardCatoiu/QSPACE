@@ -10,6 +10,7 @@ This repository contains data generated for the QSPACE of <i>E. coli</i> K-12 MG
 QSPACE was successfully tested using:
 - python v3.7.9
 - biopython v1.81 (https://github.com/biopython/biopython)
+- DisEMBL v1.4 (http://dis.embl.de/)
 - nglview v2.7.7 (https://github.com/nglviewer/nglview)
 - numpy v1.19.5 (https://github.com/numpy/numpy)
 - matplotlib v3.3.3 (https://github.com/matplotlib/matplotlib)
@@ -28,4 +29,21 @@ QSPACE was successfully tested using:
 - ScanNet (https://github.com/jertubiana/ScanNet)
 
 # Install Instructions
+- install package dependecies 
+- git clone https://github.com/EdwardCatoiu/QSPACE.git
+- follow the tutorial in demo_QSPACE.ipynb 
+- ... or generate the figures in the [manuscript]()
 
+# A note on run-times
+
+We provide all QSPACE-generated results information in the Demo_Results/data folder for QSPACE-24_example. We provided QSPACE-generated results for Module 002 for QSPACE-1515 and QSPACE-GS. These are the PDB/API results so that users can avoid sending identical queries to PDB for E. coli proteins while testing this repository.      
+
+The QSPACE-generated results for E. coli QSPACE-GS are 8 GB large.  The data downloaded (structures from all sources, sequences, membrane calculations, opm structures, structural properties, etc.) to return the QSPACE-GS results dataframe is 260 GB large. A link will be added in this repository once this dataset and the results datasets are hosted elsewhere. Using these datasets will avoid additional runtimes associated with generating the QSPACEs.
+
+The following modules require additional run-times (1st run)
+- Module 000B-C (UniProt download sequences / Alleleome download sequences)
+- Module 001A-C (Download Alphafold structures / Swiss-Prot structures / I-tasser structures)
+- Module 002A-B (PDB API/download structures)
+- Module 003B/D (Manual curation of oligomeric structures, calculate AlphaFold Multimer structures)
+- Module 005C (OPM server calculations)
+- Module 006B/D (SCRATCH, ScanNet)

@@ -1,0 +1,4 @@
+,OPM,Uniprot,TMHMM,final_source,orient_Uniprot,UniprotIds,Uniprot_bulb_orient,Uniprot_bulb_orient_failedQCQA
+b3241_6__AlphaMulti,"['O_vector', 'N_vector']","['TM_2', 'TM_1']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,True,['P46482'],,
+AF-P77599-F1-model_v2,"['O_vector', 'N_vector']",,,OPM,,,,
+P75783_462_727_3udc,"['O_vector', 'N_vector']","['TM_2', 'TM_1']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,True,['P75783'],,
