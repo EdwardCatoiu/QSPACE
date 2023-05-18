@@ -53,7 +53,7 @@ def run_001B(blattnerUniprotMapping,
     dfblattner_uniprot_mapping['uniprotId'] = pd.Series(blattnerUniprotMapping)
     dfblattner_uniprot_mapping.head()
     
-    dfswiss = pd.read_csv(op.join(swissRepositoryFolder, 'INDEX.csv'), skiprows=6, sep ='\t')
+    dfswiss = pd.read_csv(op.join(swissRepositoryFolder, 'INDEX'), skiprows=6, sep ='\t')
     dfswiss.head()
     
     
