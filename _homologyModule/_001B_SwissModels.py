@@ -81,7 +81,7 @@ def run_001B(blattnerUniprotMapping,
 #             print filename, '\t', structure_id
             continue
         else:
-            shutil.move(src= infilepath,dst = outfilepath)
+            shutil.copy(src= infilepath,dst = outfilepath)
 #     print "\t> Moved : {} SWISS models...".format(len(os.listdir(swiss_outfolder)))
     
     total_chains_swiss = get_struct_chains_swiss(structureFolder = qspaceDirs['swissStructuresDir'],
