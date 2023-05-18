@@ -589,7 +589,7 @@ def find_best_resolution(ilist_min,structure_info,stype):
                     index_keep.update({index : structId})
                     
         dfs = structure_info[structure_info.index.isin(index_keep.keys())]
-        dfs=dfs.sort_values(by = 'qmean_norm',ascending=False)
+        dfs=dfs.sort_values(by = 'qmeandisco_global',ascending=False)
         best_index = dfs.first_valid_index()
         best_structure = index_keep[best_index]
         
