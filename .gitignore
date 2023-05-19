@@ -1,3 +1,4 @@
+#modified from ssbio
 # IPython autosave
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
