@@ -163,8 +163,8 @@ def run_006E_mapGeoInterfaceToProteome(dfalldata,interfaceFolder = qspaceDirs['p
     return global_interfaces
 
 def generate_ScanNet_command(dfalldata,
-                             path_to_ScanNet,
-                             commandFile ,  
+                             path_to_command_file,
+                             path_to_ScanNet,                          
                              force_rerun = False,
                              scannetResultsFolder = qspaceDirs['scannetResultsDir'],
                              outPDBfolder = qspaceDirs['scannetStructuresDir'],
@@ -200,7 +200,7 @@ def generate_ScanNet_command(dfalldata,
     
     print ("Writing ScanNet Command...\n------------------------------------")
 
-    cmd = ''
+    cmd = 'cd {} ;'.format(path_to_ScanNet)
     c = 0
     for sid in tqdm(dfalldata.structureId.unique()):
         sfile = dfstructure_file_locations.loc[sid, 'sfile']
@@ -208,11 +208,17 @@ def generate_ScanNet_command(dfalldata,
         basename = op.basename(sfile).split('.')[0]
 
         results_file = "{}_single_ScanNet_interface_noMSA/predictions_{}.csv".format(basename,basename)
-
         outfileResults = op.join(scannetResultsFolder, results_file)
         if op.exists(outfileResults) and not force_rerun:
             continue
-        print ("{}; ".format(sid),)
+        else:
+            results_file = "{}_single_ScanNet_interface_noMSA/predictions_{}.csv".format(sid,sid)
+            outfileResults = op.join(scannetResultsFolder, results_file)
+            if op.exists(outfileResults) and not force_rerun:
+                continue
+            
+          
+        print ("{}; ".format(results_file),)
         s = StructProp(ident=sid, structure_path=sfile, file_type = op.basename(sfile).split('.')[-1])
         parsed = s.parse_structure()
         #     break
@@ -222,13 +228,13 @@ def generate_ScanNet_command(dfalldata,
         if c %100 == 0:
             cmd +='\n\n'
 
-        cmd += '{}python predict_bindingsites.py {} --noMSA ; '.format(path_to_ScanNet, outfilePDB)
+        cmd += 'python predict_bindingsites.py {} --noMSA ; '.format(outfilePDB)
         c +=1
 
-    with open(commandFile, 'w') as f2:
+    with open(path_to_command_file, 'w') as f2:
         f2.write("#!/bin/bash\n")
         f2.write(cmd)
-    return commandFile, dfstructure_file_locations
+    return path_to_command_file, dfstructure_file_locations
 
 def run_006E_readScannetResults(dfalldata,
                                 dfstructure_file_locations,
