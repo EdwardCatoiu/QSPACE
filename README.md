@@ -3,7 +3,17 @@ This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <
 
 Direct your questions to ecatoiu@ucsd.edu!
 
-# Description
+# Contents
+- [Overview](#overview)
+- [Package Dependencies](#package-dependencies)
+- [External Servers / Software](#external-servers--software)
+- [Install Instructions](#install-instructions)
+- [Run times](#a-note-on-run-times)
+- [Graphical Abstract](#graphical-abstract)
+- [Description of modules](#description-of-select-modules)
+- [License](https://github.com/EdwardCatoiu/QSPACE/blob/main/LICENSE)
+
+# Overview
 For any list of genes and protein-complexes with annotated gene-stoichiometries, QPSACE identifies the protein structures that best represent the oligomeric state of the protein complexes that can be re-created from the gene list input. For genes outside the annotated oligomeric protein complexes, QSPACE will use structure-guided analysis to semi-automatically confirm oligomerization of monomer/non-annotated genes in the gene list. When no structures from existing databses can re-create the oligomeric proteins, QSPACE will genereate multi-gene fasta files that can be modelled with ColabFold/Alphafold Multimer. Once the oligomeric structures are determined, protein structural properties, functionally important enzyme domains, wild-type sequence variation, and laboratory mutants are mapped in 3D. QSPACE structures are also oriented across the cell membrane using data from UniProt / OPM / DeepTMHMM. 
 
 This repository contains data generated for the QSPACE of <i>E. coli</i> K-12 MG1655 that can be used to re-create the figures in the main text of our manuscript.  As an example, QSPACE is set up to run for a set of 24 genes (QSPACE-24) that showcase the various modules. Data is also provided for the set of genes in <i>E. coli</i> metabolic model iML1515 (QSPACE-1515) and for <i>E. coli</i> K-12 MG1655 at genome-scale (QSPACE-GS). 
@@ -42,13 +52,17 @@ We provide all QSPACE-generated results information in the Demo_Results/data fol
 
 The QSPACE-generated results for E. coli QSPACE-GS are 8 GB large.  The data downloaded (structures from all sources, sequences, membrane calculations, opm structures, structural properties, etc.) to return the QSPACE-GS results dataframe is 260 GB large. A link will be added in this repository once this dataset and the results datasets are hosted elsewhere. Using these datasets will avoid additional runtimes associated with generating the QSPACEs.
 
-The following modules require additional run-times (1st run)
+The following modules require additional run-times
 - Module 000B-C (UniProt download sequences / Alleleome download sequences)
 - Module 001A-C (Download Alphafold structures / Swiss-Prot structures / I-tasser structures)
 - Module 002A-B (PDB API/download structures)
 - Module 003B/D (Manual curation of oligomeric structures, calculate AlphaFold Multimer structures)
 - Module 005C (OPM server calculations)
 - Module 006B/D (SCRATCH, ScanNet)
+
+<p align="left">
+  <img width="400" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Expected_run_times.png">
+</p>
 
 # Graphical Abstract
 This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <b>A</b>tlas of a <b>Ce</b>ll (QSPACE). This oligomeric structural representation of protein complexes includes the calculation of protein structural properties, residue-level membrane integration and subcellular compartmentalization, and mapping of functionally important regions and mutational databases.
