@@ -76,8 +76,8 @@ This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <
 #### Module 3-4
 <i>Module 3A</i> determines the protein structures that can be mapped to the protein complexes (Panel 2a.i).
 <i>Module 3B</i> performs a structure-guided re-annotation of falsely annotated protein monomers (Panel 2a.ii).
-<i>Module 3C/D</i> generates protein complex sequences and for integration with alphafold multimer/colabfold and QCQA of multimer predictions (Panel 2a.iii).
-<i>Module 4A</i> determines the final protein represenation of all protein complexes (Panel 2b-d).
+<i>Module 3C/D</i> generates protein complex sequences for integration with alphafold multimer/colabfold and provides QCQA of multimer predictions (Panel 2a.iii).
+<i>Module 4A</i> determines the final structural represenation of all protein complexes (Panel 2b-d).
 <p align="left">
   <img width="500" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Manuscript/From_Manuscript/fig2_qspace_low_qual.jpg">
 </p>
