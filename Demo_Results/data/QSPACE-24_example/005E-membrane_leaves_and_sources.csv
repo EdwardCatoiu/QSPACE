@@ -1,9 +1,9 @@
-,location,finalLeafInfo,finalSource,Uniprot,TMHMM,orientBy
-5nik-assembly1,TransMembrane,"{'Periplasmic_E': 'Periplasmic_E', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic', 'Periplasmic_C': 'Periplasmic_C'}",Uniprot,Pass,Pass,Uniprot_Passed
-AF-P77599-F1-model_v2,Inner_Membrane,"{'N': 'Cytoplasmic', 'O': 'Periplasmic_C'}",OPM,,,Manually
-P02930_23_458_5bun,Outer_Membrane,"{'N': 'Periplasmic_E', 'O': 'Extracellular'}",OPM,Pass,,Uniprot_Passed
-5o66-assembly1,TransMembrane,"{'Periplasmic_E': 'Periplasmic_E', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic', 'Periplasmic_C': 'Periplasmic_C'}",Uniprot,Pass,,Uniprot_Passed
-b3240_3__AlphaMulti,Inner_Membrane,"{'N': 'Periplasmic_C', 'O': 'Cytoplasmic'}",OPM,Exists,Pass,Uniprot_Failed
-ABC-26-CPLX_AlphaMulti,Inner_Membrane,"{'O': 'Cytoplasmic', 'N': 'Periplasmic_C'}",OPM,Exists,Pass,Uniprot_Failed
-b3241_6__AlphaMulti,Inner_Membrane,"{'N': 'Cytoplasmic', 'O': 'Periplasmic_C'}",OPM,Pass,Pass,Manually
-P75783_462_727_3udc,Inner_Membrane,"{'O': 'Cytoplasmic', 'N': 'Periplasmic_C'}",OPM,Pass,Pass,Manually
+,location,finalLeafInfo,finalSource,Uniprot,orientBy,TMHMM
+AF-P77599-F1-model_v2,,,OPM,,,
+5o66-assembly1,TransMembrane,"{'Periplasmic_E': 'Periplasmic_E', 'Periplasmic_C': 'Periplasmic_C', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic'}",Uniprot,Pass,Uniprot_Passed,
+5nik-assembly1,TransMembrane,"{'Periplasmic_E': 'Periplasmic_E', 'Periplasmic_C': 'Periplasmic_C', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic'}",Uniprot,Pass,Uniprot_Passed,Pass
+b3240_3__AlphaMulti,Inner_Membrane,"{'N': 'Periplasmic_C', 'O': 'Cytoplasmic'}",OPM,Exists,Uniprot_Failed,Pass
+6wxi-assembly1,Outer_Membrane,"{'N': 'Periplasmic_E', 'O': 'Extracellular'}",OPM,Pass,Uniprot_Passed,
+P75783_61_726_7uw5,,,OPM,Pass,,
+b3241_6__AlphaMulti,,,OPM,Pass,,Pass
+ABC-26-CPLX_AlphaMulti,Inner_Membrane,"{'O': 'Cytoplasmic', 'N': 'Periplasmic_C'}",OPM,Exists,Uniprot_Failed,Pass

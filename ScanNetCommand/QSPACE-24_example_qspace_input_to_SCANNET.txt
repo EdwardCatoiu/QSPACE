@@ -1,4 +1,4 @@
 #!/bin/bash
+cd /home/ecatoiu/Projects/ScanNet/ ;
 
-
-../ScanNet/python predict_bindingsites.py ../../../../../../../mnt/wwn-0x5000c500b96b98e1-part1/QSPACE_ecoli/structures/Scannet_chain_removed/4ocg-assembly2.pdb --noMSA ; 
+python predict_bindingsites.py ../../../../../../../mnt/wwn-0x5000c500b96b98e1-part1/QSPACE_install/structures/Scannet_chain_removed/4ocg-assembly2.pdb --noMSA ; 

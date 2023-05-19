@@ -1,9 +1,9 @@
 ,OPM,Uniprot,TMHMM,final_source,orient_Uniprot,UniprotIds,Uniprot_bulb_orient
-5nik-assembly1,"['N_vector', 'O_vector']","['Periplasmic_E', 'Extracellular', 'Cytoplasmic', 'Periplasmic_C']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",Uniprot,True,"['P75830', 'P75831', 'P02930', 'P75830', 'P75831', 'P02930']","{'Periplasmic_E': 'Periplasmic_E', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic', 'Periplasmic_C': 'Periplasmic_C'}"
 AF-P77599-F1-model_v2,"['N_vector', 'O_vector']",,,OPM,,,
-P02930_23_458_5bun,"['N_vector', 'O_vector']","['Periplasmic_E', 'Extracellular']",,OPM,True,['P02930'],"{'N': 'Periplasmic_E', 'O': 'Extracellular'}"
-5o66-assembly1,"['N_vector', 'O_vector']","['Periplasmic_E', 'Extracellular', 'Cytoplasmic', 'Periplasmic_C']",,Uniprot,True,"['P31224', 'P02930', 'P31224', 'P02930']","{'Periplasmic_E': 'Periplasmic_E', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic', 'Periplasmic_C': 'Periplasmic_C'}"
+5o66-assembly1,"['N_vector', 'O_vector']","['Periplasmic_E', 'Periplasmic_C', 'Extracellular', 'Cytoplasmic']",,Uniprot,True,"['P02930', 'P31224', 'P02930', 'P31224']","{'Periplasmic_E': 'Periplasmic_E', 'Periplasmic_C': 'Periplasmic_C', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic'}"
+5nik-assembly1,"['N_vector', 'O_vector']","['Periplasmic_E', 'Periplasmic_C', 'Extracellular', 'Cytoplasmic']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",Uniprot,True,"['P75831', 'P75830', 'P02930', 'P75831', 'P75830', 'P02930']","{'Periplasmic_E': 'Periplasmic_E', 'Periplasmic_C': 'Periplasmic_C', 'Extracellular': 'Extracellular', 'Cytoplasmic': 'Cytoplasmic'}"
 b3240_3__AlphaMulti,"['N_vector', 'O_vector']",,"['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,,,
+6wxi-assembly1,"['N_vector', 'O_vector']","['Extracellular', 'Periplasmic_E']",,OPM,True,['P02930'],"{'N': 'Periplasmic_E', 'O': 'Extracellular'}"
+P75783_61_726_7uw5,"['N_vector', 'O_vector']","['TM_2', 'TM_1']",,OPM,True,['P75783'],
+b3241_6__AlphaMulti,"['N_vector', 'O_vector']","['TM_2', 'TM_1']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,True,['P46482'],
 ABC-26-CPLX_AlphaMulti,"['N_vector', 'O_vector']",,"['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,,,
-b3241_6__AlphaMulti,"['N_vector', 'O_vector']","['TM_1', 'TM_2']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,,['P46482'],
-P75783_462_727_3udc,"['N_vector', 'O_vector']","['TM_1', 'TM_2']","['tmhmm_leaflet_O', 'tmhmm_leaflet_I']",OPM,,['P75783'],

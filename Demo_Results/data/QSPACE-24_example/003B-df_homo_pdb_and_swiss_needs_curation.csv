@@ -1,5 +1,5 @@
-,gene_stoich,manual_stoich,total_quality,calculated,manual,2,4,3,6,8
-G6358-MONOMER,{'b0651': 1},,"{'1yoe-assembly1.cif_&_NOBFS_0': 96.2, 'P41409_2_311_3g5i_&_NOBFS_0': 99.7, '1yoe-assembly2.cif_&_NOBFS_0': 96.2}",,,['1yoe-assembly2.cif_&_NOBFS_0'],"['P41409_2_311_3g5i_&_NOBFS_0', '1yoe-assembly1.cif_&_NOBFS_0']",,,
-UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-MONO,{'b0179': 1},,"{'3eh0-assembly1.cif_&_NOBFS_0': 99.7, 'P21645_3_340_6p83_&_NOBFS_0': 98.59999999999998, '4ihf-assembly3.cif_&_NOBFS_0': 98.06666666666666}",,,,,"['P21645_3_340_6p83_&_NOBFS_0', '3eh0-assembly1.cif_&_NOBFS_0']",['4ihf-assembly3.cif_&_NOBFS_0'],
-AROE-MONOMER,{'b3281': 1},,"{'1nyt-assembly1.cif_&_NOBFS_0': 99.35, 'P15770_1_271_1nyt_&_NOBFS_0': 99.35, '1nyt-assembly2.cif_&_NOBFS_0': 99.35}",,,,"['P15770_1_271_1nyt_&_NOBFS_0', '1nyt-assembly1.cif_&_NOBFS_0']",,,['1nyt-assembly2.cif_&_NOBFS_0']
-Unmodelled_MONOMER_b1221,{'b1221': 1},,"{'1rnl-assembly2.cif_&_NOBFS_0': 92.6, '1rnl-assembly3.cif_&_NOBFS_0': 92.6}",,,['1rnl-assembly3.cif_&_NOBFS_0'],['1rnl-assembly2.cif_&_NOBFS_0'],,,
+,gene_stoich,manual_stoich,total_quality,calculated,manual,4,8,2,3,6
+AROE-MONOMER,{'b3281': 1},,"{'1nyt-assembly1.cif_&_NOBFS_0': 99.35, 'P15770_1_271_1nyt_&_NOBFS_0': 99.35, '1nyt-assembly2.cif_&_NOBFS_0': 99.35}",,,"['P15770_1_271_1nyt_&_NOBFS_0', '1nyt-assembly1.cif_&_NOBFS_0']",['1nyt-assembly2.cif_&_NOBFS_0'],,,
+G6358-MONOMER,{'b0651': 1},,"{'1yoe-assembly1.cif_&_NOBFS_0': 96.2, 'P41409_2_311_3g5i_&_NOBFS_0': 99.7, '1yoe-assembly2.cif_&_NOBFS_0': 96.2}",,,"['P41409_2_311_3g5i_&_NOBFS_0', '1yoe-assembly1.cif_&_NOBFS_0']",,['1yoe-assembly2.cif_&_NOBFS_0'],,
+Unmodelled_MONOMER_b1221,{'b1221': 1},,"{'1rnl-assembly2.cif_&_NOBFS_0': 92.6, '1rnl-assembly3.cif_&_NOBFS_0': 92.6}",,,['1rnl-assembly2.cif_&_NOBFS_0'],,['1rnl-assembly3.cif_&_NOBFS_0'],,
+UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-MONO,{'b0179': 1},,"{'3eh0-assembly1.cif_&_NOBFS_0': 99.7, 'P21645_1_341_3eh0_&_NOBFS_0': 100.0, '4ihf-assembly3.cif_&_NOBFS_0': 98.06666666666666}",,,,,,"['P21645_1_341_3eh0_&_NOBFS_0', '3eh0-assembly1.cif_&_NOBFS_0']",['4ihf-assembly3.cif_&_NOBFS_0']
