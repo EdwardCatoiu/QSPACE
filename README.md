@@ -7,7 +7,7 @@ Direct your questions to ecatoiu@ucsd.edu!
 - [Overview](#overview)
 - [Package Dependencies](#package-dependencies)
 - [External Servers / Software](#external-servers--software)
-- [Install Instructions](#install-instructions)
+- [Installation Guide](#installation-guide)
 - [Run times](#a-note-on-run-times)
 - [Graphical Abstract](#graphical-abstract)
 - [Description of modules](#description-of-select-modules)
@@ -40,11 +40,13 @@ QSPACE was successfully tested using:
 - Orientations of Proteins in Membranes (OPM) (https://opm.phar.umich.edu/ppm_server2_cgopm)
 - ScanNet (https://github.com/jertubiana/ScanNet)
 
-# Install Instructions
-- install package dependecies 
-- git clone https://github.com/EdwardCatoiu/QSPACE.git
-- follow the tutorial in [demo_QSPACE.ipynb](https://github.com/EdwardCatoiu/QSPACE/blob/main/demo_QSPACE.ipynb) 
-- ... or generate the figures in the [manuscript](https://github.com/EdwardCatoiu/QSPACE/blob/main/Generate_Manuscript_Files.ipynb)
+# Installation Guide
+1. install package dependecies 
+2. git clone https://github.com/EdwardCatoiu/QSPACE.git
+3. follow the tutorial in [demo_QSPACE.ipynb](https://github.com/EdwardCatoiu/QSPACE/blob/main/demo_QSPACE.ipynb) 
+4. or generate the figures in the [manuscript](https://github.com/EdwardCatoiu/QSPACE/blob/main/Generate_Manuscript_Files.ipynb)
+
+Should take < 5 minutes after installing dependencies
 
 # A note on run-times
 
@@ -72,7 +74,7 @@ This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <
 </p>
 
 # Description of Select Modules
-
+Additional details are provided in Table S1 of the Supplentary Material of our manuscript.
 #### Module 3-4
 <i>Module 3A</i> determines the protein structures that can be mapped to the protein complexes (Panel 2a.i).
 <i>Module 3B</i> performs a structure-guided re-annotation of falsely annotated protein monomers (Panel 2a.ii).
