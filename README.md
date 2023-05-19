@@ -33,7 +33,7 @@ QSPACE was successfully tested using:
 # Install Instructions
 - install package dependecies 
 - git clone https://github.com/EdwardCatoiu/QSPACE.git
-- follow the tutorial in demo_QSPACE.ipynb 
+- follow the tutorial in [demo_QSPACE.ipynb](https://github.com/EdwardCatoiu/QSPACE/blob/main/demo_QSPACE.ipynb) 
 - ... or generate the figures in the [manuscript](https://github.com/EdwardCatoiu/QSPACE/blob/main/Generate_Manuscript_Files.ipynb)
 
 # A note on run-times
