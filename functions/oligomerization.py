@@ -6,6 +6,8 @@ import copy
 import json
 import os
 import os.path as op
+import logging
+log = logging.getLogger(__name__)
 
 import sys
 with open('qspace_directories.json','r') as f:
@@ -159,6 +161,7 @@ def auto_qcqa_swiss(parent,
     for index, row in df_swiss_results.iterrows():
         row = row.drop(["total_quality","QSPRD","QMN4","GMQE"]).dropna()
         if len(row) != 1:
+            log.warn(index,row)
             raise ValueError ('Multiple Good Swiss Models, cannot find the right stoichiometry')
         gene_stoich = row.keys()[0]
         updated_gene_stoich.update({index : {list(parent[index].keys())[0] : gene_stoich}})
@@ -198,7 +201,11 @@ def auto_qcqa_swiss_and_pdb(parent,
                                                            total_quality_cutoff = 70
                                                           )
             except KeyError:
-                kmer = df_pdb.loc[swiss_id,'gene_stoichiometry']
+                try:
+                    kmer = df_pdb.loc[swiss_id,'gene_stoichiometry']
+                except KeyError:
+                    log.warn("The current Manual Curation contains structure {} that is NOT in your current version of the SWISS-Model Repository. Please re-do manual curation for enzyme {}".format(swiss_id, k))
+                    continue
                 if type(kmer) == str:
                     kmer = ast.literal_eval(kmer)
                 kmer = np.sum(list(kmer.values()))
@@ -263,7 +270,7 @@ def check_swiss_model(dfpseudo_best_pdbswiss,
                       is_monomer = False):
     
     if not swiss_model_metrics:
-        src = op.join(qspaceDirs['Input_dir'], '003B-swiss_model_metrics.json') 
+        src = op.join(qspaceDirs['DataOutput_dir'], '001B-swiss_model_metrics.json') 
         with open(src,'rb') as f:
             swiss_model_metrics = json.load(f)
     

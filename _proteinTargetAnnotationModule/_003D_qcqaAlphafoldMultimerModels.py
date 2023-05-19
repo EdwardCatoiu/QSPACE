@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from .utils import *
 log = logging.getLogger(__name__)
+import ssbio.protein.sequence.utils.alignment as ssbioaln
+
 
 def result_in_query(cplxfile, queryAF ):
         was_queried = []
@@ -210,5 +212,85 @@ def run_003D_pseudoStructures_AF_best(dfalpha,
     return dfalpa_best
 
 
-        
+def run_003D_needle_alignment_AFMulti(AFchain_quality_dict,dfalphamulti,dfrepseq,force_rerun = True):
     
+    structure_error = []
+    error_needle = []
+    
+    expected_needle_files_dict ={}
+    for structure, gene_chain_info in AFchain_quality_dict.items():
+        expected_needle_files = []
+        for gene , chaininfo in gene_chain_info.items():
+            for chain in chaininfo.keys():
+                expected_needle_files += ["{}_AlphaMulti_{}_{}-{}.needle".format(structure, gene, dfrepseq.loc[gene,'UniProtId'],chain)] 
+        expected_needle_files_dict.update({structure : expected_needle_files})
+       
+    
+    for structure, needle_file_list in expected_needle_files_dict.items():
+        structure_id = "{}_AlphaMulti".format(structure)
+        structure_file_path = dfalphamulti.loc[structure, 'pdb_file']
+        a_structure = StructProp(ident = structure_id,structure_path=structure_file_path,file_type = 'pdb')
+        try:
+            parsed = a_structure.parse_structure()
+        except (AttributeError, IndexError, PDBConstructionException):
+            log.warn( "{} Structure Error".format(structure_id))
+            structure_error +=[pdb_id]
+            continue
+
+        
+        for needle_file in needle_file_list:
+            if op.exists(op.join(qspaceDirs['SequenceAlignmentDir'], needle_file)) and not force_rerun:
+                continue
+                
+            chain_id = needle_file.split('-')[-1].split('.needle')[0]
+            gene = needle_file.split('AlphaMulti_')[-1].split('_')[0]
+            seqId = needle_file.split('AlphaMulti_{}_'.format(gene))[-1].split('-')[0]
+            
+            if 'consensus' in needle_file:
+                g_seq = dfrepseq.loc[gene,'AlleleomeSeq']
+            else:
+                g_seq = dfrepseq.loc[gene,'UniProtSeq']
+            
+            if g_seq is None or str(g_seq) == 'nan' :
+#             print ( '\t Error : No Sequence >>>> {}' .format(needle_file))
+                error_needle +=[needle_file]
+                continue
+        
+        
+            try:
+                chain_prop = a_structure.chains.get_by_id(chain_id)
+                chain_seq_record = chain_prop.seq_record
+            except (KeyError,AttributeError):
+    #             print ( '{}-{} Chain Does Not Exist'.format(pdb_id, chain_id))
+                error_needle +=[needle_file]
+                continue
+            if not chain_seq_record:
+    #             print  ( "Chain Sequence Not Parsed : {}-{}".format(pdb_id, chain_id))
+                error_needle +=[needle_file]
+                continue 
+            if len(chain_seq_record) == 0:
+    #             print ( "Not a real chain :  {}-{}".format(pdb_id, chain_id))
+                error_needle +=[needle_file]
+                continue       
+            
+            #SEQUENCES 
+            struct_seq = str(chain_prop.seq_record.seq)
+            if struct_seq.count('X') > 0:
+                #eliminate the HOH X in the chain seq
+                struct_seq = "".join([''.join(aa) for aa in str(chain_prop.seq_record.seq) if aa != 'X'])
+                if len(struct_seq) == 0:
+                    error_needle +=[needle_file]
+                    continue
+    #         print '\t Test >>>> {}'.format( needle_file)
+
+            outfile_path = op.join(qspaceDirs['SequenceAlignmentDir'], needle_file)
+            if not op.exists(outfile_path) or force_rerun:
+                if type(g_seq) == str:
+                    aln_file = ssbioaln.run_needle_alignment(seq_a = struct_seq,
+                                                             seq_b = g_seq,
+                                                             outfile = needle_file, 
+                                                             outdir = qspaceDirs['SequenceAlignmentDir'],
+                                                             force_rerun=force_rerun)
+                    
+                    log.info("Aligning...\t{}".format(needle_file))
+    return  structure_error,error_needle

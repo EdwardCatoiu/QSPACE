@@ -120,7 +120,11 @@ def run_003B_caseV_HeteroOligos(dfpdb_and_swiss_structures,
             structuralEvidence = ast.literal_eval(row.Homo_kmer_PDB) +ast.literal_eval(row.Homo_kmer_SWISS)
 
             for structure in structuralEvidence:
-                gene_stoich = str(dfpdb_and_swiss_structures.loc[structure,"gene_stoichiometry"])
+                try:
+                    gene_stoich = str(dfpdb_and_swiss_structures.loc[structure,"gene_stoichiometry"])
+                except KeyError:
+                    log.warn("The current Manual Curation contains structure {} that is NOT in your current version of the SWISS-Model Repository. Please re-do manual curation for enzyme {} in file {}".format(structure, index, infile))
+                    continue
                 qual = dfpdb_and_swiss_structures.loc[structure,"total_quality"]
                 if gene_stoich in structuralEvidence_dict:
                     structuralEvidence_dict[gene_stoich].update({structure : qual})
