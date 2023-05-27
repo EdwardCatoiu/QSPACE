@@ -12,15 +12,16 @@ from matplotlib_venn import venn3, venn3_circles, venn3_unweighted
 from matplotlib import pyplot as plt
 import matplotlib.gridspec as gridspec
 
-with open('qspace_directories.json','r') as f:
-    qspaceDirs= json.load(f)
-    
-import sys
-# sys.path.append('../')
-# import qspace_directories as qspaceDirs
+
+import os
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 #import qspace functions
-sys.path.append(qspaceDirs['FunctionsDir'])
+functions_dir = "/".join(current_dir.split('/')[0:-1]) + '/functions'
+
+import sys
+sys.path.append(functions_dir)
+
 import venn
 from venn import *
 
