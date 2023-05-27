@@ -3,7 +3,7 @@
 from .utils import *
 
 
-def figS6_AB(data,fig = False, ax = False, save = False, query= 'genes'):
+def figS6_AB(data,fig = False, ax = False, save = False, query= 'genes', outfile = False):
     """
     Data must be a list of length 4: [textService_UniToPDB, textService_PDBinfo, sequenceService_UniProt, sequenceService_Alleleome]
     """
@@ -42,7 +42,6 @@ def figS6_AB(data,fig = False, ax = False, save = False, query= 'genes'):
 
         venn3_unweighted([set1, set2, set3], set_labels = ['Uniprot IDs','Uniprot Seqs','Alleleome Seqs'], ax = ax)
         ax.set_title('Genes w/PDB structures')
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS6A-002A-GenesWithStructuresFromAPIs.png')
 
     elif query =='structures':
         
@@ -52,12 +51,14 @@ def figS6_AB(data,fig = False, ax = False, save = False, query= 'genes'):
 
         venn3_unweighted([set1, set2, set3], set_labels = ['Uniprot IDs','Uniprot Seqs','Alleleome Seqs'], ax = ax)
         ax.set_title('PDB structures identified')
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS6B-002A-StructuresIdentifiedFromAPIs.png')
 
     else:
         raise (KeyError, 'query must be "genes" or "structures"')
 
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS6B-002A-{}IdentifiedFromAPIs.png'.format(query))
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
@@ -71,7 +72,7 @@ def figS6_AB(data,fig = False, ax = False, save = False, query= 'genes'):
 
 
 
-def figS6_C(dfbioassembly,fig = False, ax = False, save = False):
+def figS6_C(dfbioassembly,fig = False, ax = False, save = False, outfile = False):
 
     if not fig:
         fig, ax = plt.subplots()
@@ -97,12 +98,13 @@ def figS6_C(dfbioassembly,fig = False, ax = False, save = False):
     ax.set_ylabel('Number of PDB Entries', size = 14)
     
     if save:
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS6C-002B-NumberOfBioassembliesPerPDB.png')
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS6C-002B-NumberOfBioassembliesPerPDB.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
-def figS6_D(dfbioassembly,fig = False, ax = False, save = False):
+def figS6_D(dfbioassembly,fig = False, ax = False, save = False, outfile = False):
     if not fig:
         fig, ax = plt.subplots()
 
@@ -145,7 +147,8 @@ def figS6_D(dfbioassembly,fig = False, ax = False, save = False):
     ax.set_xlim(0,36)
 
     if save:
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS6D-002B-OligomericStateOfBioassemblies.png')
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS6D-002B-OligomericStateOfBioassemblies.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
 
     return fig, ax

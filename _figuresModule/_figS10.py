@@ -3,7 +3,7 @@
 from .utils import *
 
 
-def figS10_A(data,fig = False, ax = False, save = False):
+def figS10_A(data,fig = False, ax = False, save = False, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
     
@@ -13,14 +13,16 @@ def figS10_A(data,fig = False, ax = False, save = False):
 
     v = venn3_unweighted([set1, set2, set3], ('Single Stucture (Low Quality)','Single Stucture (High Quality)','Multi-Structure'), ax = ax)
 
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS10A-003D-AFMultiModel_vs_seqLength.png')
+    
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS10A-003D-AFMultiModel_vs_seqLength.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
 
-def figS10_BE(dfmatch_for_supp,dfqual_for_supp, save = False):
+def figS10_BE(dfmatch_for_supp,dfqual_for_supp, save = False,outfile1 = False,outfile2 = False):
     color_palette = sns.color_palette('RdYlGn', 101
                                  ).as_hex()
     sns.palplot(color_palette)
@@ -180,9 +182,11 @@ def figS10_BE(dfmatch_for_supp,dfqual_for_supp, save = False):
         ax.tick_params(axis='both', which='major', labelsize=14,length = 8, width = 1.5,)
         ax.tick_params(axis='both', which='minor', labelsize=14,length = 4, width = 1.5)
     
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS10CDE-004A-tradeoffs_in_matches.png')
     if save:
-        fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
+        if not outfile1:
+            outfile1 = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS10CDE-004A-tradeoffs_in_matches.png')
+
+        fig.savefig(outfile1,dpi = 900,transparent = True, bbox_inches = 'tight')
         
     #########################second figure (panel B)
     
@@ -201,9 +205,11 @@ def figS10_BE(dfmatch_for_supp,dfqual_for_supp, save = False):
 
     fig2, ax2 = venn.venn4(labels, names = ["No Choice (Single Choice)",'No Tradeoff (Easy Choice)','Choose Quality',"Choose Quaternary (Fewer) Structures"], fig = fig2,ax = ax2, legend=False)
     
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS10B-004A-TradeOffVenn.png')
     if save:
-        fig2.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
+        if not outfile2:
+                outfile2 = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS10B-004A-TradeOffVenn.png')
+
+        fig2.savefig(outfile2,dpi = 900,transparent = True, bbox_inches = 'tight')
 
 
     

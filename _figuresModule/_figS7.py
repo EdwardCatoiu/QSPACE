@@ -3,7 +3,7 @@
 from .utils import *
 
 
-def figS7_A(data,fig = False, ax = False, save = False, legend = False,label_text = True):
+def figS7_A(data,fig = False, ax = False, save = False, legend = False,label_text = True, outfile = False):
     """
     Data must be = [genes_swiss, genes_pdb,genes_itasser,genes_alpha]. Each genes_{source} must bet a set.
     """
@@ -28,12 +28,13 @@ def figS7_A(data,fig = False, ax = False, save = False, legend = False,label_tex
 
     
     if save:
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7A-002D-GenesRepresentedInProteinStructures.png')
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7A-002D-GenesRepresentedInProteinStructures.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
-def figS7_BCDE(dfpseudo,fig = False, ax = False, save = False, legend = True, query = 'ITASSER'):
+def figS7_BCDE(dfpseudo,fig = False, ax = False, save = False, legend = True, query = 'ITASSER',outfile = False):
     if not fig:
         fig,ax =plt.subplots()
     
@@ -44,34 +45,38 @@ def figS7_BCDE(dfpseudo,fig = False, ax = False, save = False, legend = True, qu
     if query =='ITASSER':
         color ='#FAF49B'
         label = 'I-TASSER ({})'.format(len(quality))
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7B-001D-PseudoStructurQuality_ITASSER.png')
+#         outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7B-001D-PseudoStructurQuality_ITASSER.png')
 
     elif query =='ALPHAFOLD':
         color ='#F9BEC0'
         label = 'AlphaFold ({})'.format(len(quality))
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7C-001D-PseudoStructurQuality_ALPHAFOLD.png')
+#         outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7C-001D-PseudoStructurQuality_ALPHAFOLD.png')
         
     elif query =='PDB':
         color ='#AECEEA'
         label = 'PDB ({})'.format(len(quality))
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7E-002D-PseudoStructurQuality_PDB.png')
+#         outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7E-002D-PseudoStructurQuality_PDB.png')
 
       
     elif query =='SWISS':
         color ='#AFE0B2'
         label = 'SWISS ({})'.format(len(quality))
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7D-001D-PseudoStructurQuality_SWISS.png')
+#         outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7D-001D-PseudoStructurQuality_SWISS.png')
 
     ax.hist(quality,bins=bins,histtype='stepfilled',density=True,color=color, label = label )
     if legend:
         ax.legend(loc = 'upper left', fontsize = 11)
     
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7-001D-PseudoStructurQuality_{}.png'.format(query))
+
+        
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
-def figS7_F(data,fig = False, ax = False, save = False, legend = True, ):
+def figS7_F(data,fig = False, ax = False, save = False, legend = True, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
     
@@ -103,7 +108,8 @@ def figS7_F(data,fig = False, ax = False, save = False, legend = True, ):
     
    
     if save:
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7D-002D-PseudoStructurQuality_All_best.png')
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS7D-002D-PseudoStructurQuality_All_best.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax

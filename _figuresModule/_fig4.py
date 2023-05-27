@@ -4,7 +4,7 @@ from .utils import *
 
 
 
-def fig4_A(potentialMembraneData,fig = False, ax = False, save = False,legend = False):
+def fig4_A(potentialMembraneData,fig = False, ax = False, save = False,legend = False, outfile = False):
     
     if not fig:
         fig,ax =plt.subplots()
@@ -27,14 +27,16 @@ def fig4_A(potentialMembraneData,fig = False, ax = False, save = False,legend = 
    
 
     
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig4A-005A-PotentialMembraneStructures.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig4A-005A-PotentialMembraneStructures.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
 
-def fig4E_aa(dfQuatProteome,fig = False, ax = False, save = False):
+def fig4E_aa(dfQuatProteome,fig = False, ax = False, save = False, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
         fig.set_figheight(6)
@@ -76,12 +78,13 @@ def fig4E_aa(dfQuatProteome,fig = False, ax = False, save = False):
     ax.set_xlabel('Amino Acids', size = 15)
     
     if save:
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig4E_aa-005A-aa_level_compartments.png')
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig4E_aa-005A-aa_level_compartments.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
 
     return fig, ax
 
-def fig4E_prot(dfQuatProteome,fig = False, ax = False, save = False,legend = True):
+def fig4E_prot(dfQuatProteome,fig = False, ax = False, save = False,legend = True, outfile = False):
     compartments_AA = {18:['Extracellular (secreted)'],
                        17:['OM-Extracellular-Bulb'],
                        16:['OM-Extracellular-Embedded','OM-Periplasmic_E-Embedded'],
@@ -167,7 +170,8 @@ def fig4E_prot(dfQuatProteome,fig = False, ax = False, save = False,legend = Tru
         ax.tick_params(axis='both', which='minor', labelsize=14,length = 4, width = 1.5)
     
     if save:
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig4E_prot-005A-prot_level_compartments.png')
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig4E_prot-005A-prot_level_compartments.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
 
     return fig, ax

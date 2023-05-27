@@ -4,7 +4,7 @@ from .utils import *
 
 
 
-def figS2(dfqual,fig = False, ax = False, save = False):
+def figS2(dfqual,fig = False, ax = False, save = False, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
 
@@ -26,8 +26,10 @@ def figS2(dfqual,fig = False, ax = False, save = False):
     fig.set_figwidth(6)
 
     
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS2-004A-ProteinComplexesMappedToStructures.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS2-004A-ProteinComplexesMappedToStructures.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax

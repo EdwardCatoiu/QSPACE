@@ -2,7 +2,7 @@
 from .utils import *
 
 
-def fig2_B(dfqual, fig = False, ax = False, save = False):
+def fig2_B(dfqual, fig = False, ax = False, save = False,outfile = False):
     if not fig:
         fig,ax =plt.subplots()
         
@@ -52,7 +52,8 @@ def fig2_B(dfqual, fig = False, ax = False, save = False):
     ax.tick_params(axis='both', which='minor', labelsize=14,length = 4, width = 1.5)
     
     if save:
-        outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig2B-004A-SourcesOfStructuresUsed.png')
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig2B-004A-SourcesOfStructuresUsed.png')
 
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
@@ -60,7 +61,7 @@ def fig2_B(dfqual, fig = False, ax = False, save = False):
 
 
 
-def fig2_C(dfqual, proteinTargetsOld, proteinTargetsNew, fig = False, ax = False, save = False):
+def fig2_C(dfqual, proteinTargetsOld, proteinTargetsNew, fig = False, ax = False, save = False,outfile = False):
    
     monomers = []
     oligomers = []
@@ -142,8 +143,10 @@ def fig2_C(dfqual, proteinTargetsOld, proteinTargetsNew, fig = False, ax = False
     ax.tick_params(axis='both', which='major', labelsize=14,length = 8, width = 1.5,)
     ax.tick_params(axis='both', which='minor', labelsize=14,length = 4, width = 1.5)
     ax.set_ylabel('Proteins Found',size = 15)
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig2C-004A-TypesOfMatchesToStructures.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig2C-004A-TypesOfMatchesToStructures.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax 
@@ -151,7 +154,7 @@ def fig2_C(dfqual, proteinTargetsOld, proteinTargetsNew, fig = False, ax = False
 
     
     
-def fig2_D(dfqual, proteinTargetsNew, fig = False, ax = False, save = False):
+def fig2_D(dfqual, proteinTargetsNew, fig = False, ax = False, save = False, outfile = False):
     #####begin figure
     if not fig:
         fig,ax =plt.subplots()
@@ -182,8 +185,10 @@ def fig2_D(dfqual, proteinTargetsNew, fig = False, ax = False, save = False):
     max_y = np.max([np.max(n1), np.max(n2)])
     ax.set_ylim(0.8,3*max_y)
 
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig2D-004A-OligomerStateOfProteinComplexes.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'Fig2D-004A-OligomerStateOfProteinComplexes.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
 
     return fig, ax 

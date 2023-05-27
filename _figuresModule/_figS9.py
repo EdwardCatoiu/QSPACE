@@ -3,7 +3,7 @@
 from .utils import *
 
 
-def figS9_A(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'stepfilled',    alpha = 0.5):
+def figS9_A(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'stepfilled',    alpha = 0.5, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
         
@@ -42,14 +42,16 @@ def figS9_A(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'step
 
     ###########
     
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS9A-003D-AFMultiModel_vs_seqLength.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS9A-003D-AFMultiModel_vs_seqLength.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
 
-def figS9_B(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'stepfilled',alpha = 0.5):
+def figS9_B(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'stepfilled',alpha = 0.5, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
         
@@ -85,14 +87,16 @@ def figS9_B(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'step
 
     ax.set_xlabel('pLLDT')
 
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS9B-003D-AFMultiModel_vs_ModelScore.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS9B-003D-AFMultiModel_vs_ModelScore.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
 
-def figS9_C(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'stepfilled',alpha = 0.5):
+def figS9_C(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'stepfilled',alpha = 0.5, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
  
@@ -129,8 +133,10 @@ def figS9_C(dfalpha_manual,fig = False, ax = False, save = False,histtype= 'step
               )
 
     ax.set_xlabel('Alphafold Multimer Score')
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS9C-003D-AFMultiModel_vs_pLLDT.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS9C-003D-AFMultiModel_vs_pLLDT.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax

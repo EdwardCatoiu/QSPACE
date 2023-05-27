@@ -4,7 +4,7 @@ from .utils import *
 
 from matplotlib_venn import venn3,venn3_unweighted
 
-def figS8_A(proteinTargets,fig = False, ax = False, save = False):
+def figS8_A(proteinTargets,fig = False, ax = False, save = False,outfile= False):
     if not fig:
         fig,ax =plt.subplots()
         
@@ -14,14 +14,16 @@ def figS8_A(proteinTargets,fig = False, ax = False, save = False):
     v = venn3_unweighted([set1, set2, set3], ('COBRAME','ECOCYC','UNMODELLED'), ax = ax)
     ax.set_title("Sources of Protein Complexes")
 
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8A-003A-SourcesOfProteinComplexes.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8A-003A-SourcesOfProteinComplexes.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     
     return fig, ax
 
 
-def figS8_B(proteinTargets,fig = False, ax = False, save = False):
+def figS8_B(proteinTargets,fig = False, ax = False, save = False,outfile= False):
     if not fig:
         fig,ax =plt.subplots()
 
@@ -35,14 +37,15 @@ def figS8_B(proteinTargets,fig = False, ax = False, save = False):
 
     v = venn3_unweighted([set1, set2, set3], ("Monomer",'COBRAME',  'ECOCYC'),ax=ax)
     ax.set_title("Annotated Oligomerization of Protein Complex ")
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8B-003A-AnnotatedOligomerizationfProteinComplexes.png')
 
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8B-003A-AnnotatedOligomerizationfProteinComplexes.png')
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     return fig,ax
     
     
-def figS8_C(hetero_oligo_pdb, homo_oligo_pdb,homo_oligo_swiss,fig = False, ax = False, save = False):
+def figS8_C(hetero_oligo_pdb, homo_oligo_pdb,homo_oligo_swiss,fig = False, ax = False, save = False, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
 
@@ -54,14 +57,16 @@ def figS8_C(hetero_oligo_pdb, homo_oligo_pdb,homo_oligo_swiss,fig = False, ax = 
     ax.set_title("Structural Evidence of Oligomerization\nfor {} 'MONOMER' Enzymes".format(len(set1.union(set2).union(set3))))
     # c=venn3_circles([set1, set2, set3], linestyle='-', linewidth=1, color="k")
     
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8C-003B-StructuralEvidenceOfOligomerization.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8C-003B-StructuralEvidenceOfOligomerization.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
 
     return fig, ax
 
 
-def figS8_D(df_recipes_changed,fig = False, ax = False, save = False):
+def figS8_D(df_recipes_changed,fig = False, ax = False, save = False, outfile = False):
     if not fig:
         fig,ax =plt.subplots()
 
@@ -88,7 +93,9 @@ def figS8_D(df_recipes_changed,fig = False, ax = False, save = False):
     ax.tick_params(axis='both', which='major', labelsize=14,length = 8, width = 1.5,)
     ax.tick_params(axis='both', which='minor', labelsize=14,length = 4, width = 1.5)
     
-    outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8D-003B-ResultsOfStoichReannotation.png')
     if save:
+        if not outfile:
+            outfile = op.join(qspaceDirs['FiguresOutput_dir'], 'FigS8D-003B-ResultsOfStoichReannotation.png')
+
         fig.savefig(outfile,dpi = 900,transparent = True, bbox_inches = 'tight')
     return fig, ax
