@@ -1,5 +1,5 @@
 # QSPACE
-This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <b>A</b>tlas of a <b>Ce</b>ll (QSPACE) as described in ___link___. 
+This package generates the <b>Q</b>uaternary <b>S</b>tructural <b>P</b>roteome <b>A</b>tlas of a <b>Ce</b>ll (QSPACE). 
 
 Direct your questions to ecatoiu@ucsd.edu!
 
