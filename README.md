@@ -50,6 +50,8 @@ QSPACE requires the following packages:
 - seaborn v0.10.1 (https://github.com/mwaskom/seaborn)
 - selenium v3.14.0 (https://github.com/SeleniumHQ/selenium)
 - ssbio (https://github.com/SBRG/ssbio)
+- scikit-learn v.24.2 (https://scikit-learn.org/stable/install.html)
+- pdbecif v1.5 (https://pypi.org/project/PDBeCif/)
 
 ## Local Software
 QSPACE interfaces with following software packages that must be downloaded (details in tutorial):
