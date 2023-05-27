@@ -67,7 +67,8 @@ QSPACE interfaces with the following external software/servers (details in tutor
 Installation should take < 5 minutes after installing dependencies
 1. install package dependecies and local software 
 2. git clone https://github.com/EdwardCatoiu/QSPACE.git
-3. run the tutorial/demo
+3. copy/replace the four files in your ssbio package with their corresponding files in QSPACE/ssbio_files/
+4. run the tutorial/demo
 
 # Demo
 - Option 1: [follow the tutorial](https://github.com/EdwardCatoiu/QSPACE/blob/main/demo_QSPACE.ipynb) for QSPACE-24 (24 genes that showcase the different modules in this package)
