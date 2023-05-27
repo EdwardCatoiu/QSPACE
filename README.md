@@ -53,6 +53,7 @@ QSPACE requires the following packages:
 - scikit-learn v.24.2 (https://scikit-learn.org/stable/install.html)
 - pdbecif v1.5 (https://pypi.org/project/PDBeCif/)
 - cloudpickle v1.6.0 (https://github.com/cloudpipe/cloudpickle)
+- openpyxl v3.0.10 (https://pypi.org/project/openpyxl/)
 
 ## Local Software
 QSPACE interfaces with following software packages that must be downloaded (details in tutorial):
