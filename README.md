@@ -87,6 +87,12 @@ The following modules require additional run-times
 - Module 005C (OPM server calculations)
 - Module 006B/D (calculations with local software SCRATCH and ScanNet)
 
+The following files are [hosted](https://drive.google.com/drive/folders/1OkXnPK2YP3WAk62Mmu1p00z2dKiS1HQN?usp=share_link) on Google Drive that can be used to reduce run-times for <i>E. coli</i> projects
+- All Alphafold Multimer models calculated for <i>E. coli</i> QSPACE-GS (Module 003C/D)
+- All OPM server calculations for <i>E. coli</i> QSPACE-GS (Module 005C)
+- Folders of images used to manually oriented membrane proteins from Dataset S6-7 (Module 5E)
+- [Project-specific results](https://drive.google.com/drive/folders/1_NiNF8I07x632h2vMkk8MO5jyJQDf4b5?usp=share_link) generated in QSPACE-1515 and -GS
+
 <p align="left">
   <img width="400" src="https://github.com/EdwardCatoiu/QSPACE/blob/main/Expected_run_times.png">
 </p>
