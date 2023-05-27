@@ -26,7 +26,7 @@ The runtimes provided below are generated using a computer with the following sp
 - 32 GB RAM
 - 4 cores @ 3.60GHz
 - 750Mbps internet speed
-- Seagate External Hard Drive (STEA4000400), we reccomend and SSD with faster read/write speeds than this one
+- Seagate External Hard Drive (STEA4000400), we reccomend a SSD with faster read/write speeds than this one
 
 # Software Requirements
 ## OS Requirements
