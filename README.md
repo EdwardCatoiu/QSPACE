@@ -60,6 +60,7 @@ QSPACE interfaces with following software packages that must be downloaded (deta
 - ScanNet (https://github.com/jertubiana/ScanNet)
 - DisEMBL v1.4 (http://dis.embl.de/)
 - SCRATCH-1D v1.1 (https://scratch.proteomics.ics.uci.edu/)
+- EMBOSS (https://emboss.sourceforge.net/download/#Stable)
 
 ## External Software/Servers
 QSPACE interfaces with the following external software/servers (details in tutorial):
